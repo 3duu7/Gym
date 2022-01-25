@@ -129,9 +129,29 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
-    public function actionDay()
+    public function actionBiceps()
     {
-        return $this->render('day');
+        return $this->render('biceps');
+    }
+
+    public function actionEspalda()
+    {
+        return $this->render('espalda');
+    }
+
+    public function actionHombros()
+    {
+        return $this->render('hombros');
+    }
+
+    public function actionTriceps()
+    {
+        return $this->render('triceps');
+    }
+
+    public function actionPecho()
+    {
+        return $this->render('pecho');
     }
 
     public function actionSay($message = 'Hola')
