@@ -37,9 +37,9 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
-            // ['label' => 'Home', 'url' => ['/site/index']],
-            // ['label' => 'About', 'url' => ['/site/about']],
-            // ['label' => 'Contact', 'url' => ['/site/contact']],
+            ['label' => 'Home', 'url' => ['/site/index']],
+            ['label' => 'About', 'url' => ['/site/about']],
+            ['label' => 'Contact', 'url' => ['/site/contact']],
             ['label' => 'Biceps', 'url' => ['/rutina/biceps']],
             ['label' => 'Triceps', 'url' => ['/rutina/triceps']],
             ['label' => 'Hombros', 'url' => ['/rutina/hombros']],

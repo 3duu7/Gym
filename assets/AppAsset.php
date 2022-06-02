@@ -22,10 +22,16 @@ class AppAsset extends AssetBundle
     public $css = [
         'css/site.css',
     ];
-    public $js = [
-    ];
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap4\BootstrapAsset',
+        'app\assets\FontAwesomeAsset',
+        'app\assets\AngularAsset',
     ];
+  public $js      =[
+        'js/app.js',
+    ];
+
+    //...
 }
+
