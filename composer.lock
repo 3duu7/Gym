@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a973addecfa2040a73918abda938727c",
+    "content-hash": "8ec0f1349930d2a42d54c7ebc5786bbe",
     "packages": [
         {
             "name": "bower-asset/inputmask",
             "version": "3.3.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/RobinHerbots/Inputmask.git",
+                "url": "git@github.com:RobinHerbots/Inputmask.git",
                 "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "dist": {
@@ -305,11 +305,70 @@
             "time": "2021-12-25T01:21:49+00:00"
         },
         {
+            "name": "kriss/yii2-calendar-schedule",
+            "version": "v2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/krissss/yii2-calendar-schedule.git",
+                "reference": "52d6730338361d90831f01a031c5e0d7b0853772"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/krissss/yii2-calendar-schedule/zipball/52d6730338361d90831f01a031c5e0d7b0853772",
+                "reference": "52d6730338361d90831f01a031c5e0d7b0853772",
+                "shasum": ""
+            },
+            "require": {
+                "npm-asset/fullcalendar": "^5.5",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "require-dev": {
+                "kriss/foxy-yii2-convert": "v1.4"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "kriss\\calendarSchedule\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kriss",
+                    "email": "462679766@qq.com"
+                }
+            ],
+            "description": "Yii2 Calendar Schedule",
+            "keywords": [
+                "calendar",
+                "extension",
+                "fullcalendar",
+                "schedule",
+                "yii2"
+            ],
+            "time": "2021-12-03T01:30:23+00:00"
+        },
+        {
             "name": "npm-asset/bootstrap",
             "version": "4.6.1",
             "dist": {
                 "type": "tar",
                 "url": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.6.1.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/fullcalendar",
+            "version": "5.10.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/fullcalendar/-/fullcalendar-5.10.1.tgz"
             },
             "type": "npm-asset",
             "license": [
