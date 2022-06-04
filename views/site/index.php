@@ -11,6 +11,9 @@ $this->title = 'My Yii Application';
 
     </div>
 
+
+
+
     <div class="body-content">
 
         <div class="row">
@@ -18,32 +21,33 @@ $this->title = 'My Yii Application';
             <div class="col-lg-3">
                 <h5>Lunes</h5>
 
-                <p>Correr</p>
+                <p>Pecho, Biceps</p>
             </div>
 
             <div class="col-lg-3">
                 <h5>Martes</h5>
 
-                <p>Pecho, Espalda, hombros</p>
+                <p>Triceps, Espalda </p>
             </div>
 
             <div class="col-lg-3">
                 <h5>Miercoles</h5>
 
-                <p>Correr</p>
+                <p>Correr,Piernas</p>
             </div>
 
             <div class="col-lg-3">
                 <h5>Jueves</h5>
 
-                <p>Biceps, triceps</p>
+                <p>Hombros, abdominales </p>
             </div>
 
             <div class="col-lg-3">
                 <h5>Viernes</h5>
 
-                <p>Pecho, espalda, hombros</p>
+                <p>Team Edward(full body)</p>
             </div>
+
 
         </div>
 
