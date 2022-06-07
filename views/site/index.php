@@ -24,6 +24,7 @@ if ($today == $week_end ) {
 /* @var $this yii\web\View */
 $this->title='My Yii Application';
 ?>
+
 <div ng-app="MyApp" class="site-index">
     <div ng-controller="SiteCtrl" class="body-content">
         <i class="fa fa-user"></i>
