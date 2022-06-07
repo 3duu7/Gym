@@ -4,13 +4,29 @@ date_default_timezone_set('Europe/Madrid'); // PHP supported timezone
 $script_tz = date_default_timezone_get();
 // get current day:
 $currentday = date('l');
+
+
+$today = date('d-m-Y');
+$day = date('w');
+$week_start = date('m-d-Y', strtotime('-'.$day.' days'));
+$week_end = date('m-d-Y', strtotime('+'.(6-$day).' days'));
+$week= 1;
+
+
+if ($today == $week_end ) {
+    $week++;
+    if ($week == 5) {
+       $week = 1;
+    }
+}
+
+
 /* @var $this yii\web\View */
 $this->title='My Yii Application';
 ?>
 <div ng-app="MyApp" class="site-index">
     <div ng-controller="SiteCtrl" class="body-content">
         <i class="fa fa-user"></i>
-
     </div>
 </div>
 
@@ -32,7 +48,7 @@ $this->title='My Yii Application';
              <div class="jumbotron text-center bg-transparent">
                <h1 class="display-4">Jueves</h1>
             </div>
-        <?php elseif (date('l') === 'Fiday') :?>
+        <?php elseif (date('l') === 'Friday') :?>
              <div class="jumbotron text-center bg-transparent">
                <h1 class="display-4">Viernes</h1>
             </div>
@@ -46,17 +62,15 @@ $this->title='My Yii Application';
             </div>
         <?php endif ?>
 
-    <?php if (date('l') === 'Monday'): ?>
+    <?php if (date('l') === 'Friday'): ?>
 
         <div class="body-content">
             <h5>Pecho</h5>
-            
                 <img src="../upload/pecho.gif" width="200" height="150">
                 <img src="../upload/pecho2.gif" width="200" height="150">
                 <img src="../upload/pecho3.gif" width="200" height="150">
                 <img src="../upload/pecho4.gif" width="200" height="150">
       
-
             <h5>Biceps</h5>
                 <img src="../upload/biceps.gif" width="200" height="150">
                 <img src="../upload/biceps2.gif" width="200" height="150">
@@ -93,11 +107,16 @@ $this->title='My Yii Application';
         <div class="jumbotron text-center bg-transparent">
             <h1>Descanso</h1>
         </div>
+    <?php elseif (date('l') === 'Friday') :?>
+
+        <div class="jumbotron text-center bg-transparent">
+            <h1>Team Edward</h1>
+        </div>
 
     <?php endif ?>
     
-    <?php if (date('l') === 'Monday') :?>
-        <table class="default" style="float: right;">
+    <?php if (date('l') === 'Friday') :?>
+        <table class="default" style="float: right;width:40%">
 
           <tr>
             <th scope="row" >WEEK</th>
@@ -107,57 +126,57 @@ $this->title='My Yii Application';
             <th style="padding-left: 15px;">MVR</th>
           </tr>
 
-          <tr>
-            <th>Pecho</th>
-            <td style="text-align: center">8</td>
-            <td style="text-align: center">12</td>
-            <td style="text-align: center">16</td>
-            <td style="text-align: center">22</td>
+           <tr>
+            <th>Pecho</th>     
+            <td<?php if ($week == 1): ?> style=color:red <?php endif ?>>8</td>
+            <td <?php if ($week == 2): ?> style=color:red <?php endif ?>>12</td>
+            <td <?php if ($week == 3): ?> style=color:red <?php endif ?>>16</td>
+            <td <?php if ($week == 4): ?> style=color:red <?php endif ?>>22</td>
           </tr>
 
           <tr>
             <th>Biceps</th>
-            <td style="text-align: center">6</td>
-            <td style="text-align: center">12</td>
-            <td style="text-align: center">18</td>
-            <td style="text-align: center">26</td>
+            <td<?php if ($week == 1): ?> style=color:red <?php endif ?>>6</td>
+            <td <?php if ($week == 2): ?> style=color:red <?php endif ?>>12</td>
+            <td <?php if ($week == 3): ?> style=color:red <?php endif ?>>18</td>
+            <td <?php if ($week == 4): ?> style=color:red <?php endif ?>>26</td>
           </tr>
 
           <tr>
             <th>Espalda</th>
-            <td style="text-align: center">8</td>
-            <td style="text-align: center">12</td>
-            <td style="text-align: center">18</td>
-            <td style="text-align: center">25</td>
+            <td<?php if ($week == 1): ?> style=color:red <?php endif ?>>8</td>
+            <td <?php if ($week == 2): ?> style=color:red <?php endif ?>>12</td>
+            <td <?php if ($week == 3): ?> style=color:red <?php endif ?>>18</td>
+            <td <?php if ($week == 4): ?> style=color:red <?php endif ?>>25</td>
           </tr>
 
         </table>
 
     <?php elseif (date('l') === 'Tuesday') :?>
-         <table class="default" style="float: right;">
+         <table class="default" style="float: right;width:40%">
 
           <tr>
             <th scope="row" >WEEK</th>
             <th style="padding-left: 15px;">VM</th>
             <th style="padding-left: 15px;">MVE</th>
-            <th style="padding-left: 15px;">MVA</th>
+            <th style="padding-left: 15px">MVA</th>
             <th style="padding-left: 15px;">MVR</th>
           </tr>
 
           <tr>
             <th>Triceps</th>
-            <td style="text-align: center">4</td>
-            <td style="text-align: center">8</td>
-            <td style="text-align: center">12</td>
-            <td style="text-align: center">18</td>
+            <td<?php if ($week == 1): ?> style=color:red <?php endif ?>>4</td>
+            <td <?php if ($week == 2): ?> style=color:red <?php endif ?>>8</td>
+            <td <?php if ($week == 3): ?> style=color:red <?php endif ?>>12</td>
+            <td <?php if ($week == 4): ?> style=color:red <?php endif ?>>18</td>
           </tr>
 
           <tr>
             <th>Hombro</th>
-            <td style="text-align: center">6</td>
-            <td style="text-align: center">8</td>
-            <td style="text-align: center">18</td>
-            <td style="text-align: center">26</td>
+            <td<?php if ($week == 1): ?> style=color:red <?php endif ?>>6</td>
+            <td <?php if ($week == 2): ?> style=color:red <?php endif ?>>8</td>
+            <td <?php if ($week == 3): ?> style=color:red <?php endif ?>>18</td>
+            <td <?php if ($week == 4): ?> style=color:red <?php endif ?>>26</td>
           </tr>
 
           <tr>
@@ -169,7 +188,10 @@ $this->title='My Yii Application';
           </tr>
 
         </table>
+    <?php elseif (date('l') === 'Thursday' && $week == 3 || $week== 4) :?>
+
     <?php endif ?>
+
 </div>
     
 
