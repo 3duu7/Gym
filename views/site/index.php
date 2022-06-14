@@ -74,25 +74,36 @@ $this->title='Hoy';
             <h5>Biceps</h5>
                 <img src="../upload/biceps.gif" width="200" height="150">
                 <img src="../upload/biceps2.gif" width="200" height="150">
-                <img src="../upload/biceps3.gif" width="200" height="150"> 
+                <img src="../upload/biceps3.gif" width="200" height="150">
+
+            <h5>Piernas</h5>
+                <img src="../upload/piernas.gif" width="200" height="150">
+                <img src="../upload/piernas2.gif" width="200" height="150">
+                <img src="../upload/piernas3.gif" width="200" height="150">
+            
         </div>
 
     <?php elseif (date('l') === 'Tuesday') :?>
 
         <div class="body-content">
             
-            <h5>Triceps</h5>
+            
+            <h5>Espalda</h5>
+                <img src="../upload/espalda.gif" width="200" height="150">
+                <img src="../upload/espalda2.gif" width="200" height="150">
+                <img src="../upload/espalda3.gif" width="200" height="150">
 
-            <h5>Hombros</h5>
-            <img src="../upload/hombros.gif" width="200" height="150">
-            <img src="../upload/hombros2.gif" width="200" height="150">
-            <img src="../upload/hombros3.gif" width="200" height="150">
-            <img src="../upload/hombros5.gif" width="200" height="150">
+             <h5>Triceps</h5>
+                <img src="../upload/triceps.gif" width="200" height="150">
+                <img src="../upload/triceps2.gif" width="200" height="150">
+                <img src="../upload/triceps3.gif" width="200" height="150">
+                <img src="../upload/triceps4.gif" width="200" height="150">
 
-            <h5>Piernas</h5>
-            <img src="../upload/piernas.gif" width="200" height="150">
-            <img src="../upload/piernas2.gif" width="200" height="150">
-            <img src="../upload/piernas3.gif" width="200" height="150">
+            <h5>Abdominales</h5>
+                <img src="../upload/abdominal.gif" width="200" height="150">
+                <img src="../upload/abdominal2.gif" width="200" height="150">
+                <img src="../upload/abdominal3.gif" width="200" height="150">
+
 
         </div>
 
@@ -100,15 +111,11 @@ $this->title='Hoy';
 
         <div class="body-content">
 
-            <h5>Espalda</h5>
-                <img src="../upload/espalda.gif" width="200" height="150">
-                <img src="../upload/espalda2.gif" width="200" height="150">
-                <img src="../upload/espalda3.gif" width="200" height="150">
-
-            <h5>Abdominales</h5>
-                <img src="../upload/abdominal.gif" width="200" height="150">
-                <img src="../upload/abdominal2.gif" width="200" height="150">
-                <img src="../upload/abdominal3.gif" width="200" height="150">
+            <h5>Hombros</h5>
+            <img src="../upload/hombros.gif" width="200" height="150">
+            <img src="../upload/hombros2.gif" width="200" height="150">
+            <img src="../upload/hombros3.gif" width="200" height="150">
+            <img src="../upload/hombros5.gif" width="200" height="150">
 
             <h5>Core</h5>
                 <img src="../upload/core.gif" width="200" height="150">
@@ -129,9 +136,7 @@ $this->title='Hoy';
 
     <?php endif ?>
     
-
-    <?php if (date('l') === 'Monday') :?>
-        <table style="position: absolute;left: 1400px;top:700px;">
+        <table style="position: absolute;left: 1400px;top:400px;">
 
           <tr>
             <th scope="row" >WEEK</th>
