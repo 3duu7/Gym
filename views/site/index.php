@@ -22,7 +22,7 @@ if ($today == $week_end ) {
 
 
 /* @var $this yii\web\View */
-$this->title='My Yii Application';
+$this->title='Hoy';
 ?>
 
 <div ng-app="MyApp" class="site-index">
@@ -99,6 +99,7 @@ $this->title='My Yii Application';
             <h5>Espalda</h5>
                 <img src="../upload/espalda.gif" width="200" height="150">
                 <img src="../upload/espalda2.gif" width="200" height="150">
+                <img src="../upload/espalda3.gif" width="200" height="150">
 
             <h5>Abdominales</h5>
                 <img src="../upload/abdominal.gif" width="200" height="150">
