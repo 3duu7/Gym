@@ -14,71 +14,82 @@ $this->title='My Yii Application';
     </div>
 </div>
 
-<div class="site-index">
-
         <?php if (date('l') === 'Monday'): ?>
-            <div class="jumbotron text-center bg-transparent">
-               <h1 class="display-4">Lunes</h1>
+            <div>
+               <h4 style="text-align: center">Lunes</h4>
             </div>
         <?php elseif (date('l') === 'Tuesday') :?>
              <div class="jumbotron text-center bg-transparent">
-               <h1 class="display-4">Martes</h1>
+               <h4 style="text-align: center">Martes</h4>
             </div>
         <?php elseif (date('l') === 'Wednesday') :?>
              <div class="jumbotron text-center bg-transparent">
-               <h1 class="display-4">Miercoles</h1>
+               <h4 style="text-align: center">Miercoles</h4>
             </div>
         <?php elseif (date('l') === 'Thursday') :?>
              <div class="jumbotron text-center bg-transparent">
-               <h1 class="display-4">Jueves</h1>
+               <h4 style="text-align: center">Jueves</h4>
             </div>
         <?php elseif (date('l') === 'Fiday') :?>
              <div class="jumbotron text-center bg-transparent">
-               <h1 class="display-4">Viernes</h1>
+               <h4 style="text-align: center">Viernes</h4>
             </div>
         <?php elseif (date('l') === 'Saturday') :?>
              <div class="jumbotron text-center bg-transparent">
-               <h1 class="display-4">Sabado</h1>
+               <h4 style="text-align: center">Sabado</h4>
             </div>
         <?php elseif (date('l') === 'Sunday') :?>
              <div class="jumbotron text-center bg-transparent">
-               <h1 class="display-4">Domingo</h1>
+               <h4 style="text-align: center">Domingo</h4>
             </div>
         <?php endif ?>
 
     <?php if (date('l') === 'Monday'): ?>
 
         <div class="body-content">
-            <h5>Pecho</h5>
-            
-                <img src="../upload/pecho.gif" width="200" height="150">
-                <img src="../upload/pecho2.gif" width="200" height="150">
-                <img src="../upload/pecho3.gif" width="200" height="150">
-                <img src="../upload/pecho4.gif" width="200" height="150">
-      
+          
 
+            <h5>Pecho</h5>
+            <img src="../upload/pecho.gif" width="200" height="150">
+            <img src="../upload/pecho2.gif" width="200" height="150">
+            <img src="../upload/pecho3.gif" width="200" height="150">
+            <img src="../upload/pecho4.gif" width="200" height="150">
+          <iframe width="500" height="300" src="https://www.youtube.com/embed/ayelLEGQPWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="  float: right">
+            </iframe>
             <h5>Biceps</h5>
-                <img src="../upload/biceps.gif" width="200" height="150">
-                <img src="../upload/biceps2.gif" width="200" height="150">
-                <img src="../upload/biceps3.gif" width="200" height="150">
+            <img src="../upload/biceps.gif" width="200" height="150">
+            <img src="../upload/biceps2.gif" width="200" height="150">
+            <img src="../upload/biceps3.gif" width="200" height="150">
 
              <h5>Espalda</h5>
-                <img src="../upload/espalda.gif" width="200" height="150">
-                <img src="../upload/espalda2.gif" width="200" height="150">
+            <img src="../upload/espalda.gif" width="200" height="150">
+            <img src="../upload/espalda2.gif" width="200" height="150">
+            <img src="../upload/espalda3.gif" width="200" height="150">
+
         </div>
-      
+
     <?php elseif (date('l') === 'Tuesday') :?>
 
         <div class="body-content">
+            
             <h5>Triceps</h5>
             <img src="../upload/triceps.gif" width="200" height="150">
             <img src="../upload/triceps2.gif" width="200" height="150">
             <img src="../upload/triceps3.gif" width="200" height="150">
-
+            <img src="../upload/triceps4.gif" width="200" height="150">
+            <img src="../upload/triceps5.gif" width="200" height="150">
+           <iframe width="500" height="300" src="https://www.youtube.com/embed/ayelLEGQPWI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="  float: right">
+            </iframe>
             <h5>Hombros</h5>
             <img src="../upload/hombros.gif" width="200" height="150">
             <img src="../upload/hombros2.gif" width="200" height="150">
             <img src="../upload/hombros3.gif" width="200" height="150">
+            <img src="../upload/hombros5.gif" width="200" height="150">
+
+            <h5>Piernas</h5>
+            <img src="../upload/piernas.gif" width="200" height="150">
+            <img src="../upload/piernas2.gif" width="200" height="150">
+            <img src="../upload/piernas3.gif" width="200" height="150">
 
         </div>
 
@@ -97,7 +108,7 @@ $this->title='My Yii Application';
     <?php endif ?>
     
     <?php if (date('l') === 'Monday') :?>
-        <table class="default" style="float: right;">
+        <table style="position: absolute;left: 1400px;top:700px;">
 
           <tr>
             <th scope="row" >WEEK</th>
@@ -134,7 +145,7 @@ $this->title='My Yii Application';
         </table>
 
     <?php elseif (date('l') === 'Tuesday') :?>
-         <table class="default" style="float: right;">
+         <table style="position: absolute;left: 1400px;top:700px;">
 
           <tr>
             <th scope="row" >WEEK</th>

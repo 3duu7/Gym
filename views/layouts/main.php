@@ -45,6 +45,7 @@ AppAsset::register($this);
             ['label' => 'Hombros', 'url' => ['/rutina/hombros']],
             ['label' => 'Pecho', 'url' => ['/rutina/pecho']],
             ['label' => 'Espalda', 'url' => ['/rutina/espalda']],
+            ['label' => 'Piernas', 'url' => ['/rutina/piernas']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (

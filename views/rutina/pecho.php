@@ -14,6 +14,6 @@ $this->params['breadcrumbs'][] = $this->title;
 	<img src="../upload/pecho2.gif" width="350" height="200">
 	<img src="../upload/pecho3.gif" width="350" height="200">
 	<img src="../upload/pecho4.gif" width="350" height="200">
-	<img src="../upload/pecho5.gif" width="350" height="200">
+
 
 </div>
