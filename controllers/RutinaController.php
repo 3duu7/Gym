@@ -39,4 +39,19 @@ class RutinaController extends Controller
     {
         return $this->render('pecho');
     }
+
+    public function actionCore()
+    {
+        return $this->render('core');
+    }
+
+    public function actionPiernas()
+    {
+        return $this->render('piernas');
+    }
+
+    public function actionAbdominal()
+    {
+        return $this->render('abdominal');
+    }
 }

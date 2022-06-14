@@ -37,16 +37,16 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
             ['label' => 'Biceps', 'url' => ['/rutina/biceps']],
             ['label' => 'Triceps', 'url' => ['/rutina/triceps']],
             ['label' => 'Hombros', 'url' => ['/rutina/hombros']],
             ['label' => 'Pecho', 'url' => ['/rutina/pecho']],
             ['label' => 'Espalda', 'url' => ['/rutina/espalda']],
+            ['label' => 'Core', 'url' => ['/rutina/core']],
+            ['label' => 'Abdominales', 'url' => ['/rutina/abdominal']],
+            ['label' => 'Piernas', 'url' => ['/rutina/piernas']],
             Yii::$app->user->isGuest ? (
-                ['label' => 'Login', 'url' => ['/site/login']]
+                ['label' => '', 'url' => ['/site/login']]
             ) : (
                 '<li>'
                 . Html::beginForm(['/site/logout'], 'post', ['class' => 'form-inline'])

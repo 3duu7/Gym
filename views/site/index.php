@@ -63,7 +63,7 @@ $this->title='My Yii Application';
             </div>
         <?php endif ?>
 
-    <?php if (date('l') === 'Friday'): ?>
+    <?php if (date('l') === 'Monday'): ?>
 
         <div class="body-content">
             <h5>Pecho</h5>
@@ -75,38 +75,46 @@ $this->title='My Yii Application';
             <h5>Biceps</h5>
                 <img src="../upload/biceps.gif" width="200" height="150">
                 <img src="../upload/biceps2.gif" width="200" height="150">
-                <img src="../upload/biceps3.gif" width="200" height="150">
-
-             <h5>Espalda</h5>
-                <img src="../upload/espalda.gif" width="200" height="150">
-                <img src="../upload/espalda2.gif" width="200" height="150">
+                <img src="../upload/biceps3.gif" width="200" height="150"> 
         </div>
       
     <?php elseif (date('l') === 'Tuesday') :?>
 
         <div class="body-content">
             <h5>Triceps</h5>
-            <img src="../upload/triceps.gif" width="200" height="150">
-            <img src="../upload/triceps2.gif" width="200" height="150">
-            <img src="../upload/triceps3.gif" width="200" height="150">
+              <img src="../upload/triceps.gif" width="200" height="150">
+              <img src="../upload/triceps2.gif" width="200" height="150">
+              <img src="../upload/triceps3.gif" width="200" height="150">
 
             <h5>Hombros</h5>
-            <img src="../upload/hombros.gif" width="200" height="150">
-            <img src="../upload/hombros2.gif" width="200" height="150">
-            <img src="../upload/hombros3.gif" width="200" height="150">
-
+              <img src="../upload/hombros.gif" width="200" height="150">
+              <img src="../upload/hombros2.gif" width="200" height="150">
+              <img src="../upload/hombros3.gif" width="200" height="150">
         </div>
 
     <?php elseif (date('l') === 'Wednesday') :?>
 
-        <div class="jumbotron text-center bg-transparent">
-            <h1>Correr</h1>
+        <div class="body-content">
+
+            <h5>Espalda</h5>
+                <img src="../upload/espalda.gif" width="200" height="150">
+                <img src="../upload/espalda2.gif" width="200" height="150">
+
+            <h5>Abdominales</h5>
+                <img src="../upload/abdominal.gif" width="200" height="150">
+                <img src="../upload/abdominal2.gif" width="200" height="150">
+                <img src="../upload/abdominal3.gif" width="200" height="150">
+
+            <h5>Core</h5>
+                <img src="../upload/core.gif" width="200" height="150">
+                <img src="../upload/core2.gif" width="200" height="150">
+                <img src="../upload/core3.gif" width="200" height="150">
         </div>
 
     <?php elseif (date('l') === 'Thursday') :?>
 
         <div class="jumbotron text-center bg-transparent">
-            <h1>Descanso</h1>
+            <h1>Correr</h1>
         </div>
     <?php elseif (date('l') === 'Friday') :?>
 
@@ -116,7 +124,6 @@ $this->title='My Yii Application';
 
     <?php endif ?>
     
-    <?php if (date('l') === 'Friday') :?>
         <table class="default" style="float: right;width:40%">
 
           <tr>
@@ -151,19 +158,6 @@ $this->title='My Yii Application';
             <td <?php if ($week == 4): ?> style=color:red <?php endif ?>>25</td>
           </tr>
 
-        </table>
-
-    <?php elseif (date('l') === 'Tuesday') :?>
-         <table class="default" style="float: right;width:40%">
-
-          <tr>
-            <th scope="row" >WEEK</th>
-            <th style="padding-left: 15px;">VM</th>
-            <th style="padding-left: 15px;">MVE</th>
-            <th style="padding-left: 15px">MVA</th>
-            <th style="padding-left: 15px;">MVR</th>
-          </tr>
-
           <tr>
             <th>Triceps</th>
             <td<?php if ($week == 1): ?> style=color:red <?php endif ?>>4</td>
@@ -182,16 +176,28 @@ $this->title='My Yii Application';
 
           <tr>
             <th>Piernas</th>
-            <td style="text-align: center">?</td>
-            <td style="text-align: center">?</td>
-            <td style="text-align: center">?</td>
-            <td style="text-align: center">?</td>
+            <td<?php if ($week == 1): ?> style=color:red <?php endif ?>>8</td>
+            <td <?php if ($week == 2): ?> style=color:red <?php endif ?>>12</td>
+            <td <?php if ($week == 3): ?> style=color:red <?php endif ?>>16</td>
+            <td <?php if ($week == 4): ?> style=color:red <?php endif ?>>22</td>
           </tr>
 
-        </table>
-    <?php elseif (date('l') === 'Thursday' && $week == 3 || $week== 4) :?>
+          <tr>
+            <th>Core</th>
+            <td<?php if ($week == 1): ?> style=color:red <?php endif ?>>8</td>
+            <td <?php if ($week == 2): ?> style=color:red <?php endif ?>>12</td>
+            <td <?php if ($week == 3): ?> style=color:red <?php endif ?>>16</td>
+            <td <?php if ($week == 4): ?> style=color:red <?php endif ?>>22</td>
+          </tr>
 
-    <?php endif ?>
+          <tr>
+            <th>Abdominales</th>
+            <td<?php if ($week == 1): ?> style=color:red <?php endif ?>>8</td>
+            <td <?php if ($week == 2): ?> style=color:red <?php endif ?>>12</td>
+            <td <?php if ($week == 3): ?> style=color:red <?php endif ?>>16</td>
+            <td <?php if ($week == 4): ?> style=color:red <?php endif ?>>22</td>
+          </tr>
+        </table>
 
 </div>
     
