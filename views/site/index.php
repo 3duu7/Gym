@@ -6,11 +6,17 @@ $script_tz = date_default_timezone_get();
 $currentday = date('l');
 
 
-$today = date('d-m-Y');
+$today = date('m-d-Y');
 $day = date('w');
 $week_start = date('m-d-Y', strtotime('-'.$day.' days'));
 $week_end = date('m-d-Y', strtotime('+'.(6-$day).' days'));
 $week= 1;
+
+echo $week_start ,'<br>';
+
+echo $week_end,'<br>';
+echo $week_end,'<br>';
+
 
 
 if ($today == $week_end ) {
@@ -169,14 +175,14 @@ $this->title='Hoy';
 
     <?php endif ?>
     
-        <table  style="position: absolute;left: 1100px;top:150px;">
+        <table style="position: absolute;left: 1100px;top:150px;">
 
           <tr>
             <th scope="row"></th>
-            <th style="padding-left: 15px;">VM</th>
-            <th style="padding-left: 15px;">MVE</th>
-            <th style="padding-left: 15px;">MVA</th>
-            <th style="padding-left: 15px;">MVR</th>
+            <th style="padding-left: 15px;border-bottom: 1px solid #000;">VM</th>
+            <th style="padding-left: 15px;border-bottom: 1px solid #000;">MVE</th>
+            <th style="padding-left: 15px;border-bottom: 1px solid #000;">MVA</th>
+            <th style="padding-left: 15px;border-bottom: 1px solid #000;">MVR</th>
           </tr>
 
           <tr>
