@@ -163,16 +163,16 @@ $this->title='Hoy';
             <h5>Triceps</h5>
               <img src="../upload/triceps.gif" width="200" height="150">
               <img src="../upload/triceps2.gif" width="200" height="150">
-              <img src="../upload/triceps3.gif" width="200" height="150">
+              <img src="../upload/triceps3.gif" width="200" height="150"> 
 
         </div>
 
     <?php endif ?>
     
-        <table style="position: absolute;left: 1400px;top:400px;">
+        <table  style="position: absolute;left: 1100px;top:150px;">
 
           <tr>
-            <th scope="row">WEEK</th>
+            <th scope="row"></th>
             <th style="padding-left: 15px;">VM</th>
             <th style="padding-left: 15px;">MVE</th>
             <th style="padding-left: 15px;">MVA</th>
@@ -181,66 +181,66 @@ $this->title='Hoy';
 
           <tr>
             <th>Pecho</th>     
-              <td <?php if ($week == 1): ?> style=color:red <?php endif ?> >8</td>
-              <td <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
-              <td <?php if ($week == 3): ?> style=color:red <?php endif ?> >16</td>
-              <td <?php if ($week == 4): ?> style=color:red <?php endif ?> >22</td>
+              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >8</td>
+              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
+              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >16</td>
+              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >22</td>
           </tr>
 
           <tr>
             <th>Biceps</th>
-              <td <?php if ($week == 1): ?> style=color:red <?php endif ?> >6</td>
-              <td <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
-              <td <?php if ($week == 3): ?> style=color:red <?php endif ?> >18</td>
-              <td <?php if ($week == 4): ?> style=color:red <?php endif ?> >26</td>
+              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >6</td>
+              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
+              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >18</td>
+              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >26</td>
           </tr>
 
           <tr>
             <th>Espalda</th>
-              <td <?php if ($week == 1): ?> style=color:red <?php endif ?> >8</td>
-              <td <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
-              <td <?php if ($week == 3): ?> style=color:red <?php endif ?> >18</td>
-              <td <?php if ($week == 4): ?> style=color:red <?php endif ?> >25</td>
+              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >8</td>
+              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
+              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >18</td>
+              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >25</td>
           </tr>
 
           <tr>
             <th>Triceps</th>
-              <td <?php if ($week == 1): ?> style=color:red <?php endif ?> >4</td>
-              <td <?php if ($week == 2): ?> style=color:red <?php endif ?> >8</td>
-              <td <?php if ($week == 3): ?> style=color:red <?php endif ?> >12</td>
-              <td <?php if ($week == 4): ?> style=color:red <?php endif ?> >18</td>
+              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >4</td>
+              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >8</td>
+              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >12</td>
+              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >18</td>
           </tr>
 
           <tr>
             <th>Hombro</th>
-              <td <?php if ($week == 1): ?> style=color:red <?php endif ?> >6</td>
-              <td <?php if ($week == 2): ?> style=color:red <?php endif ?> >8</td>
-              <td <?php if ($week == 3): ?> style=color:red <?php endif ?> >18</td>
-              <td <?php if ($week == 4): ?> style=color:red <?php endif ?> >26</td>
+              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >6</td>
+              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >8</td>
+              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >18</td>
+              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >26</td>
           </tr>
 
           <tr>
             <th>Piernas</th>
-              <td <?php if ($week == 1): ?> style=color:red <?php endif ?> >6</td>
-              <td <?php if ($week == 2): ?> style=color:red <?php endif ?> >10</td>
-              <td <?php if ($week == 3): ?> style=color:red <?php endif ?> >16</td>
-              <td <?php if ($week == 4): ?> style=color:red <?php endif ?> >20</td>
+              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >6</td>
+              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >10</td>
+              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >16</td>
+              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >20</td>
           </tr>
 
           <tr>
             <th>Core</th>
-              <td <?php if ($week == 1): ?> style=color:red <?php endif ?> >0</td>
-              <td <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
-              <td <?php if ($week == 3): ?> style=color:red <?php endif ?> >18</td>
-              <td <?php if ($week == 4): ?> style=color:red <?php endif ?> >25</td>
+              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >0</td>
+              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
+              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >18</td>
+              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >25</td>
           </tr>
 
           <tr>
             <th>Abdominales</th>
-              <td <?php if ($week == 1): ?> style=color:red <?php endif ?> >8</td>
-              <td <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
-              <td <?php if ($week == 3): ?> style=color:red <?php endif ?> >16</td>
-              <td <?php if ($week == 4): ?> style=color:red <?php endif ?> >22</td>
+              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >8</td>
+              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
+              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >16</td>
+              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >22</td>
           </tr>
 
         </table>
