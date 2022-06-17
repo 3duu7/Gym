@@ -82,3 +82,12 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+#box1 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

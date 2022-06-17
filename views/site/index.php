@@ -1,35 +1,54 @@
 <?php
 
-date_default_timezone_set('Europe/Madrid'); // PHP supported timezone
-$script_tz = date_default_timezone_get();
-// get current day:
-$currentday = date('l');
+$firstMonday = new DateTime('first Monday of this month');
+$firstTuesday = new DateTime('first Tuesday of this month');
+$firstWednesday = new DateTime('first Wednesday of this month');
+$firstThursday = new DateTime('first Thursday of this month');
+$firstFriday = new DateTime('first Friday of this month');
+$firstSaturday = new DateTime('first Saturday of this month');
+$firstSunday = new DateTime('first Sunday of this month');
+
+$secondMonday = new DateTime('second Monday of this month');
+$secondTuesday = new DateTime('second Tuesday of this month');
+$secondWednesday = new DateTime('second Wednesday of this month');
+$secondThursday = new DateTime('second Thursday of this month');
+$secondFriday = new DateTime('second Friday of this month');
+$secondSaturday = new DateTime('second Saturday of this month');
+$secondSunday = new DateTime('second Sunday of this month');
+
+$thirdMonday = new DateTime('third Monday of this month');
+$thirdTuesday = new DateTime('third Tuesday of this month');
+$thirdWednesday = new DateTime('third Wednesday of this month');
+$thirdThursday = new DateTime('third Thursday of this month');
+$thirdFriday = new DateTime('third Friday of this month');
+$thirdSaturday = new DateTime('third Saturday of this month');
+$thirdSunday = new DateTime('third Sunday of this month');
+
+$fourthMonday = new DateTime('fourth Monday of this month');
+$fourthTuesday = new DateTime('fourth Tuesday of this month');
+$fourthWednesday = new DateTime('fourth Wednesday of this month');
+$fourthThursday = new DateTime('fourth Thursday of this month');
+$fourthFriday = new DateTime('fourth Friday of this month');
+$fourthSaturday = new DateTime('fourth Saturday of this month');
+$fourthSunday = new DateTime('fourth Sunday of this month');
+
+$today = new Datetime('today');
+
+echo $today->format('l m d');
+echo "<br>";
+echo $firstFriday->format('l m d');
+echo "<br>";
 
 
-$today = date('m-d-Y');
-$day = date('w');
-$week_start = date('m-d-Y', strtotime('-'.$day.' days'));
-$week_end = date('m-d-Y', strtotime('+'.(6-$day).' days'));
-$week= 1;
 
-echo $week_start ,'<br>';
-
-echo $week_end,'<br>';
-echo $week_end,'<br>';
-
-
-
-if ($today == $week_end ) {
-    $week++;
-    if ($week == 5) {
-       $week = 1;
-    }
-}
 
 
 /* @var $this yii\web\View */
 $this->title='Hoy';
 ?>
+
+
+
 
   <div ng-app="MyApp" class="site-index">
       <div ng-controller="SiteCtrl" class="body-content">
@@ -175,7 +194,8 @@ $this->title='Hoy';
 
     <?php endif ?>
     
-        <table style="position: absolute;left: 1100px;top:150px;">
+       <table style="position: absolute;left: 1100px;top:150px;">
+
 
           <tr>
             <th scope="row"></th>
@@ -187,66 +207,66 @@ $this->title='Hoy';
 
           <tr>
             <th>Pecho</th>     
-              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >8</td>
-              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
-              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >16</td>
-              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >22</td>
+              <td class="alert" <?php if ($firstMonday == $today || $firstTuesday == $today || $firstWednesday == $today || $firstThursday == $today || $firstFriday == $today || $firstSaturday == $today || $firstSunday == $today): ?> style=color:red <?php endif ?> >8</td>
+              <td class="alert" <?php if ($secondMonday == $today || $secondTuesday == $today || $secondWednesday == $today || $secondThursday == $today || $secondFriday == $today || $secondSaturday == $today || $secondSunday == $today): ?> style=color:red <?php endif ?> >12</td>
+              <td class="alert" <?php if ($thirdMonday == $today || $thirdTuesday == $today || $thirdWednesday == $today || $thirdThursday == $today || $thirdFriday == $today || $thirdSaturday == $today || $thirdSunday == $today): ?> style=color:red <?php endif ?> >16</td>
+              <td class="alert" <?php if ($fourthMonday == $today || $fourthTuesday == $today || $fourthWednesday == $today || $fourthThursday == $today || $fourthFriday == $today || $fourthSaturday == $today || $fourthSunday == $today): ?> style=color:red <?php endif ?> >22</td>
           </tr>
 
           <tr>
             <th>Biceps</th>
-              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >6</td>
-              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
-              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >18</td>
-              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >26</td>
+              <td class="alert" <?php if ($firstMonday == $today || $firstTuesday == $today || $firstWednesday == $today || $firstThursday == $today || $firstFriday == $today || $firstSaturday == $today || $firstSunday == $today): ?> style=color:red <?php endif ?> >6</td>
+              <td class="alert" <?php if ($secondMonday == $today || $secondTuesday == $today || $secondWednesday == $today || $secondThursday == $today || $secondFriday == $today || $secondSaturday == $today || $secondSunday == $today): ?> style=color:red <?php endif ?> >12</td>
+              <td class="alert" <?php if ($thirdMonday == $today || $thirdTuesday == $today || $thirdWednesday == $today || $thirdThursday == $today || $thirdFriday == $today || $thirdSaturday == $today || $thirdSunday == $today): ?> style=color:red <?php endif ?> >18</td>
+              <td class="alert" <?php if ($fourthMonday == $today || $fourthTuesday == $today || $fourthWednesday == $today || $fourthThursday == $today || $fourthFriday == $today || $fourthSaturday == $today || $fourthSunday == $today): ?> style=color:red <?php endif ?> >26</td>
           </tr>
 
           <tr>
             <th>Espalda</th>
-              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >8</td>
-              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
-              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >18</td>
-              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >25</td>
+              <td class="alert" <?php if ($firstMonday == $today || $firstTuesday == $today || $firstWednesday == $today || $firstThursday == $today || $firstFriday == $today || $firstSaturday == $today || $firstSunday == $today): ?> style=color:red <?php endif ?> >8</td>
+              <td class="alert" <?php if ($secondMonday == $today || $secondTuesday == $today || $secondWednesday == $today || $secondThursday == $today || $secondFriday == $today || $secondSaturday == $today || $secondSunday == $today): ?> style=color:red <?php endif ?> >12</td>
+              <td class="alert" <?php if ($thirdMonday == $today || $thirdTuesday == $today || $thirdWednesday == $today || $thirdThursday == $today || $thirdFriday == $today || $thirdSaturday == $today || $thirdSunday == $today): ?> style=color:red <?php endif ?> >18</td>
+              <td class="alert" <?php if ($fourthMonday == $today || $fourthTuesday == $today || $fourthWednesday == $today || $fourthThursday == $today || $fourthFriday == $today || $fourthSaturday == $today || $fourthSunday == $today): ?> style=color:red <?php endif ?> >25</td>
           </tr>
 
           <tr>
             <th>Triceps</th>
-              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >4</td>
-              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >8</td>
-              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >12</td>
-              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >18</td>
+              <td class="alert" <?php if ($firstMonday == $today || $firstTuesday == $today || $firstWednesday == $today || $firstThursday == $today || $firstFriday == $today || $firstSaturday == $today || $firstSunday == $today): ?> style=color:red <?php endif ?> >4</td>
+              <td class="alert" <?php if ($secondMonday == $today || $secondTuesday == $today || $secondWednesday == $today || $secondThursday == $today || $secondFriday == $today || $secondSaturday == $today || $secondSunday == $today): ?> style=color:red <?php endif ?> >8</td>
+              <td class="alert" <?php if ($thirdMonday == $today || $thirdTuesday == $today || $thirdWednesday == $today || $thirdThursday == $today || $thirdFriday == $today || $thirdSaturday == $today || $thirdSunday == $today): ?> style=color:red <?php endif ?> >12</td>
+              <td class="alert" <?php if ($fourthMonday == $today || $fourthTuesday == $today || $fourthWednesday == $today || $fourthThursday == $today || $fourthFriday == $today || $fourthSaturday == $today || $fourthSunday == $today): ?> style=color:red <?php endif ?> >18</td>
           </tr>
 
           <tr>
             <th>Hombro</th>
-              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >6</td>
-              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >8</td>
-              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >18</td>
-              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >26</td>
+              <td class="alert" <?php if ($firstMonday == $today || $firstTuesday == $today || $firstWednesday == $today || $firstThursday == $today || $firstFriday == $today || $firstSaturday == $today || $firstSunday == $today): ?> style=color:red <?php endif ?> >6</td>
+              <td class="alert" <?php if ($secondMonday == $today || $secondTuesday == $today || $secondWednesday == $today || $secondThursday == $today || $secondFriday == $today || $secondSaturday == $today || $secondSunday == $today): ?> style=color:red <?php endif ?> >8</td>
+              <td class="alert" <?php if ($thirdMonday == $today || $thirdTuesday == $today || $thirdWednesday == $today || $thirdThursday == $today || $thirdFriday == $today || $thirdSaturday == $today || $thirdSunday == $today): ?> style=color:red <?php endif ?> >18</td>
+              <td class="alert" <?php if ($fourthMonday == $today || $fourthTuesday == $today || $fourthWednesday == $today || $fourthThursday == $today || $fourthFriday == $today || $fourthSaturday == $today || $fourthSunday == $today): ?> style=color:red <?php endif ?> >26</td>
           </tr>
 
           <tr>
             <th>Piernas</th>
-              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >6</td>
-              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >10</td>
-              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >16</td>
-              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >20</td>
+              <td class="alert" <?php if ($firstMonday == $today || $firstTuesday == $today || $firstWednesday == $today || $firstThursday == $today || $firstFriday == $today || $firstSaturday == $today || $firstSunday == $today): ?> style=color:red <?php endif ?> >6</td>
+              <td class="alert" <?php if ($secondMonday == $today || $secondTuesday == $today || $secondWednesday == $today || $secondThursday == $today || $secondFriday == $today || $secondSaturday == $today || $secondSunday == $today): ?> style=color:red <?php endif ?> >10</td>
+              <td class="alert" <?php if ($thirdMonday == $today || $thirdTuesday == $today || $thirdWednesday == $today || $thirdThursday == $today || $thirdFriday == $today || $thirdSaturday == $today || $thirdSunday == $today): ?> style=color:red <?php endif ?> >16</td>
+              <td class="alert" <?php if ($fourthMonday == $today || $fourthTuesday == $today || $fourthWednesday == $today || $fourthThursday == $today || $fourthFriday == $today || $fourthSaturday == $today || $fourthSunday == $today): ?> style=color:red <?php endif ?> >20</td>
           </tr>
 
           <tr>
             <th>Core</th>
-              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >0</td>
-              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
-              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >18</td>
-              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >25</td>
+              <td class="alert" <?php if ($firstMonday == $today || $firstTuesday == $today || $firstWednesday == $today || $firstThursday == $today || $firstFriday == $today || $firstSaturday == $today || $firstSunday == $today): ?> style=color:red <?php endif ?> >0</td>
+              <td class="alert" <?php if ($secondMonday == $today || $secondTuesday == $today || $secondWednesday == $today || $secondThursday == $today || $secondFriday == $today || $secondSaturday == $today || $secondSunday == $today): ?> style=color:red <?php endif ?> >12</td>
+              <td class="alert" <?php if ($thirdMonday == $today || $thirdTuesday == $today || $thirdWednesday == $today || $thirdThursday == $today || $thirdFriday == $today || $thirdSaturday == $today || $thirdSunday == $today): ?> style=color:red <?php endif ?> >18</td>
+              <td class="alert" <?php if ($fourthMonday == $today || $fourthTuesday == $today || $fourthWednesday == $today || $fourthThursday == $today || $fourthFriday == $today || $fourthSaturday == $today || $fourthSunday == $today): ?> style=color:red <?php endif ?> >25</td>
           </tr>
 
           <tr>
             <th>Abdominales</th>
-              <td class="alert" <?php if ($week == 1): ?> style=color:red <?php endif ?> >8</td>
-              <td class="alert" <?php if ($week == 2): ?> style=color:red <?php endif ?> >12</td>
-              <td class="alert" <?php if ($week == 3): ?> style=color:red <?php endif ?> >16</td>
-              <td class="alert" <?php if ($week == 4): ?> style=color:red <?php endif ?> >22</td>
+              <td class="alert" <?php if ($firstMonday == $today || $firstTuesday == $today || $firstWednesday == $today || $firstThursday == $today || $firstFriday == $today || $firstSaturday == $today || $firstSunday == $today): ?> style=color:red <?php endif ?> >8</td>
+              <td class="alert" <?php if ($secondMonday == $today || $secondTuesday == $today || $secondWednesday == $today || $secondThursday == $today || $secondFriday == $today || $secondSaturday == $today || $secondSunday == $today): ?> style=color:red <?php endif ?> >12</td>
+              <td class="alert" <?php if ($thirdMonday == $today || $thirdTuesday == $today || $thirdWednesday == $today || $thirdThursday == $today || $thirdFriday == $today || $thirdSaturday == $today || $thirdSunday == $today): ?> style=color:red <?php endif ?> >16</td>
+              <td class="alert" <?php if ($fourthMonday == $today || $fourthTuesday == $today || $fourthWednesday == $today || $fourthThursday == $today || $fourthFriday == $today || $fourthSaturday == $today || $fourthSunday == $today): ?> style=color:red <?php endif ?> >22</td>
           </tr>
 
         </table>
