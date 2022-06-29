@@ -101,6 +101,7 @@
               <img src="../upload/biceps.gif" width="200" height="150">
               <img src="../upload/biceps2.gif" width="200" height="150">
               <img src="../upload/biceps3.gif" width="200" height="150">
+              <img src="../upload/biceps5.gif" width="200" height="150">
 
             <h5>Hombros
               <?php if ($firstTuesday == $today): ?>(2x3) <?php endif ?> 
@@ -140,10 +141,10 @@
               <?php if ($thirdTuesday == $today): ?>(4x3) <?php endif ?> 
               <?php if ($fourthTuesday == $today): ?>(3x3|1/2) <?php endif ?> 
             </h5>
-              <img src="../upload/triceps.gif" width="200" height="150">
-              <img src="../upload/triceps2.gif" width="200" height="150">
-              <img src="../upload/triceps3.gif" width="200" height="150">
-              <img src="../upload/triceps4.gif" width="200" height="150">
+              <img src="../upload/triceps.gif" width="350" height="250">
+              <img src="../upload/triceps3.gif" width="350" height="250">
+              <img src="../upload/triceps4.gif" width="350" height="250">
+              <img src="../upload/triceps6.gif" width="350" height="250">
 
             <h5>Piernas
               <?php if ($firstTuesday == $today): ?>(2x3) <?php endif ?> 
@@ -205,7 +206,7 @@
               <img src="../upload/hombros.gif" width="200" height="150">
               <img src="../upload/hombros2.gif" width="200" height="150">
               <img src="../upload/hombros3.gif" width="200" height="150">
-              <img src="../upload/hombros5.gif" width="200" height="150">
+
           </div>
         <?php endif ?> 
     <?php elseif (date('l') === 'Sunday') :?>
