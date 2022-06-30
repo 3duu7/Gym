@@ -242,7 +242,7 @@
             <h5>Pecho
               <?php if ($thirdTuesday == $today): ?>(2x4|2/2) <?php endif ?> 
               <?php if ($fourthTuesday == $today): ?>(2x4|2/2) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(3x4|1/2) <?php endif ?> 
+              <?php if ($fifthTuesday == $today): ?>(3x4|2/2) <?php endif ?> 
             </h5>
               <img src="../upload/pecho.gif" width="200" height="150">
               <img src="../upload/pecho2.gif" width="200" height="150">
@@ -252,7 +252,7 @@
             <h5>Biceps
               <?php if ($thirdTuesday == $today): ?>(3x3|2/2) <?php endif ?> 
               <?php if ($fourthTuesday == $today): ?>(3x3|2/2) <?php endif ?>
-              <?php if ($fifthTuesday == $today): ?>(4x3|1/2) <?php endif ?>  
+              <?php if ($fifthTuesday == $today): ?>(4x3|2/2) <?php endif ?>  
             </h5>
               <img src="../upload/biceps.gif" width="200" height="150">
               <img src="../upload/biceps2.gif" width="200" height="150">
