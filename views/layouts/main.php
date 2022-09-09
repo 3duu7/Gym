@@ -28,7 +28,7 @@ AppAsset::register($this);
 <header>
     <?php
     NavBar::begin([
-        'brandLabel' => 'Hoyle',
+        'brandLabel' => 'Hoy',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar navbar-expand-md navbar-dark bg-dark fixed-top',
@@ -45,6 +45,7 @@ AppAsset::register($this);
             ['label' => 'Core', 'url' => ['/rutina/core']],
             ['label' => 'Abdominales', 'url' => ['/rutina/abdominal']],
             ['label' => 'Piernas', 'url' => ['/rutina/piernas']],
+            ['label' => 'Diario', 'url' => ['/rutina/diario']],
             Yii::$app->user->isGuest ? (
                 ['label' => '', 'url' => ['/site/login']]
             ) : (

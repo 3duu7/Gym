@@ -14,3 +14,6 @@ $this->params['breadcrumbs'][] = $this->title;
 	<img src="../upload/hombros3.gif" width="350" height="250">
 
 </div>
+
+
+

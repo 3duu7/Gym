@@ -127,8 +127,6 @@
 
     <?php if (date('l') === 'Tuesday'): ?>
 
-
-
         <div class="body-content">
  
             <h5>Pecho 
@@ -166,13 +164,7 @@
               <img src="../upload/espalda.gif" width="200" height="150">
               <img src="../upload/espalda2.gif" width="200" height="150">
               <img src="../upload/espalda3.gif" width="200" height="150">
-            
-
-            <!-- <h5>Piernas</h5>
-              <img src="../upload/piernas.gif" width="200" height="150">
-              <img src="../upload/piernas2.gif" width="200" height="150">
-              <img src="../upload/piernas3.gif" width="200" height="150">
- -->            
+                  
         </div>
 
     <?php elseif (date('l') === 'Thursday') :?>
@@ -230,7 +222,7 @@
     <?php elseif (date('l') === 'Friday') :?>
 
         <div class="jumbotron text-center bg-transparent">
-            <h1>Team Edward</h1>
+            <h1>Correr</h1>
         </div>
 
     <?php elseif (date('l') === 'Saturday') :?>
@@ -249,16 +241,16 @@
               <img src="../upload/pecho3.gif" width="200" height="150">
               <img src="../upload/pecho4.gif" width="200" height="150">
          
-            <h5>Biceps
+            <h5>Core
               <?php if ($thirdTuesday == $today): ?>(3x3|2/2) <?php endif ?> 
               <?php if ($fourthTuesday == $today): ?>(3x3|2/2) <?php endif ?>
               <?php if ($fifthTuesday == $today): ?>(4x3|2/2) <?php endif ?>  
             </h5>
-              <img src="../upload/biceps.gif" width="200" height="150">
-              <img src="../upload/biceps2.gif" width="200" height="150">
-              <img src="../upload/biceps3.gif" width="200" height="150">
+              <img src="../upload/core.gif" width="200" height="150">
+              <img src="../upload/core2.gif" width="200" height="150">
+              <img src="../upload/core3.gif" width="200" height="150">
 
-              <h5>Espalda
+            <h5>Espalda
               <?php if ($thirdTuesday == $today): ?>(3x3|2/2) <?php endif ?> 
               <?php if ($fourthTuesday == $today): ?>(3x3|2/2) <?php endif ?> 
               <?php if ($fifthTuesday == $today): ?>(4x3|2/2) <?php endif ?> 
@@ -271,40 +263,8 @@
         <?php endif ?> 
     <?php elseif (date('l') === 'Sunday') :?>
 
-        <div class="body-content">
-
-          <?php if ($thirdTuesday == $today || $fourthTuesday == $today): ?> 
-            <h5>Hombros
-              <?php if ($thirdTuesday == $today): ?>(3x3|2/2) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x3|2/2) <?php endif ?>
-              <?php if ($fifthTuesday == $today): ?>(4x3|2/2) <?php endif ?>
-            </h5>
-              <img src="../upload/hombros.gif" width="200" height="150">
-              <img src="../upload/hombros2.gif" width="200" height="150">
-              <img src="../upload/hombros3.gif" width="200" height="150">
-
-          <?php endif ?> 
-
-          <?php if ($fifthTuesday == $today): ?>
-            <h5>Triceps
-              <?php if ($fifthTuesday == $today): ?>(2x4|1/2) <?php endif ?>  
-            </h5>
-              <img src="../upload/triceps.gif" width="200" height="150">
-              <img src="../upload/triceps2.gif" width="200" height="150">
-              <img src="../upload/triceps3.gif" width="200" height="150"> 
-          <?php endif ?>
-
-          <?php if ($thirdTuesday == $today || $fourthTuesday == $today): ?>
-            <h5>piernas
-              <?php if ($thirdTuesday == $today): ?>(4x3) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(4x3) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(3x3|1/2) <?php endif ?> 
-            </h5>
-              <img src="../upload/piernas.gif" width="200" height="150">
-              <img src="../upload/piernas2.gif" width="200" height="150">
-              <img src="../upload/piernas3.gif" width="200" height="150">
-          <?php endif ?>
-
+        <div class="jumbotron text-center bg-transparent">
+            <h1>Correr</h1>
         </div>
 
     <?php endif ?>
@@ -346,10 +306,10 @@
 
           <tr>
             <th>Triceps</th>
-              <td class="alert" <?php if ($firstMonday == $today || $firstTuesday == $today || $firstWednesday == $today || $firstThursday == $today || $firstFriday == $today || $firstSaturday == $today || $firstSunday == $today): ?> style=color:red <?php endif ?> >6</td>
-              <td class="alert" <?php if ($secondMonday == $today || $secondTuesday == $today || $secondWednesday == $today || $secondThursday == $today || $secondFriday == $today || $secondSaturday == $today || $secondSunday == $today): ?> style=color:red <?php endif ?> >9</td>
+              <td class="alert" <?php if ($firstMonday == $today || $firstTuesday == $today || $firstWednesday == $today || $firstThursday == $today || $firstFriday == $today || $firstSaturday == $today || $firstSunday == $today): ?> style=color:red <?php endif ?> >8</td>
+              <td class="alert" <?php if ($secondMonday == $today || $secondTuesday == $today || $secondWednesday == $today || $secondThursday == $today || $secondFriday == $today || $secondSaturday == $today || $secondSunday == $today): ?> style=color:red <?php endif ?> >8</td>
               <td class="alert" <?php if ($thirdMonday == $today || $thirdTuesday == $today || $thirdWednesday == $today || $thirdThursday == $today || $thirdFriday == $today || $thirdSaturday == $today || $thirdSunday == $today || $fourthMonday == $today || $fourthTuesday == $today || $fourthWednesday == $today || $fourthThursday == $today || $fourthFriday == $today || $fourthSaturday == $today || $fourthSunday == $today): ?> style=color:red <?php endif ?> >12</td>
-              <td class="alert" <?php if ($fifthMonday == $today || $fifthTuesday == $today || $fifthWednesday == $today || $fifthThursday == $today || $fifthFriday == $today || $fifthSaturday == $today || $fifthSunday == $today): ?> style=color:red <?php endif ?> >18</td>
+              <td class="alert" <?php if ($fifthMonday == $today || $fifthTuesday == $today || $fifthWednesday == $today || $fifthThursday == $today || $fifthFriday == $today || $fifthSaturday == $today || $fifthSunday == $today): ?> style=color:red <?php endif ?> >16</td>
           </tr>
 
           <tr>
