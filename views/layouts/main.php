@@ -46,6 +46,7 @@ AppAsset::register($this);
             ['label' => 'Abdominales', 'url' => ['/rutina/abdominal']],
             ['label' => 'Piernas', 'url' => ['/rutina/piernas']],
             ['label' => 'Diario', 'url' => ['/rutina/diario']],
+            ['label' => 'Calendar', 'url' => ['/rutina/calendar']],
             Yii::$app->user->isGuest ? (
                 ['label' => '', 'url' => ['/site/login']]
             ) : (

@@ -125,7 +125,7 @@
             </div>
         <?php endif ?>
 
-    <?php if (date('l') === 'Tuesday'): ?>
+    <?php if (date('l') === 'Monday'): ?>
 
         <div class="body-content">
  
@@ -145,21 +145,21 @@
             <h5>Biceps
               <?php if ($firstTuesday == $today): ?>(2x3) <?php endif ?> 
               <?php if ($secondTuesday == $today): ?>(4x3) <?php endif ?> 
-              <?php if ($thirdTuesday == $today): ?>(3x3|1/2) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x3|1/2) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(4x3|1/2) <?php endif ?> 
+              <?php if ($thirdTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($fourthTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($fifthTuesday == $today): ?>(4x3) <?php endif ?> 
             </h5>
               <img src="../upload/biceps.gif" width="200" height="150">
               <img src="../upload/biceps2.gif" width="200" height="150">
               <img src="../upload/biceps3.gif" width="200" height="150">
-              <img src="../upload/biceps5.gif" width="200" height="150">
+
 
             <h5>Espalda
               <?php if ($firstTuesday == $today): ?>(3x3) <?php endif ?> 
               <?php if ($secondTuesday == $today): ?>(4x3) <?php endif ?> 
-              <?php if ($thirdTuesday == $today): ?>(3x3|1/2) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x3|1/2) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(4x3|1/2) <?php endif ?> 
+              <?php if ($thirdTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($fourthTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($fifthTuesday == $today): ?>(4x3) <?php endif ?> 
             </h5>
               <img src="../upload/espalda.gif" width="200" height="150">
               <img src="../upload/espalda2.gif" width="200" height="150">
@@ -167,15 +167,15 @@
                   
         </div>
 
-    <?php elseif (date('l') === 'Thursday') :?>
+    <?php elseif (date('l') === 'Wednesday') :?>
 
         <div class="body-content">
             <h5>Hombros
               <?php if ($firstTuesday == $today): ?>(2x3) <?php endif ?> 
               <?php if ($secondTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($thirdTuesday == $today): ?>(3x3|1/2) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x3|1/2) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(4x3|1/2) <?php endif ?> 
+              <?php if ($thirdTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($fourthTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($fifthTuesday == $today): ?>(4x3) <?php endif ?> 
             </h5>
               <img src="../upload/hombros.gif" width="200" height="150">
               <img src="../upload/hombros2.gif" width="200" height="150">
@@ -187,7 +187,7 @@
               <?php if ($secondTuesday == $today): ?>(2x4) <?php endif ?> 
               <?php if ($thirdTuesday == $today): ?>(3x4) <?php endif ?> 
               <?php if ($fourthTuesday == $today): ?>(3x4) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(2x4|1/2) <?php endif ?> 
+              <?php if ($fifthTuesday == $today): ?>(2x4) <?php endif ?> 
             </h5>
               <img src="../upload/triceps.gif" width="350" height="250">
               <img src="../upload/triceps3.gif" width="350" height="250">
@@ -199,7 +199,7 @@
               <?php if ($secondTuesday == $today): ?>(3x3) <?php endif ?> 
               <?php if ($thirdTuesday == $today): ?>(4x3) <?php endif ?> 
               <?php if ($fourthTuesday == $today): ?>(4x3) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(3x3|1/2) <?php endif ?> 
+              <?php if ($fifthTuesday == $today): ?>(3x3) <?php endif ?> 
             </h5>
               <img src="../upload/piernas.gif" width="200" height="150">
               <img src="../upload/piernas2.gif" width="200" height="150">
@@ -207,13 +207,13 @@
 
         </div>
 
-    <?php elseif (date('l') === 'Monday') :?>
+    <?php elseif (date('l') === 'Tuesday') :?>
 
         <div class="jumbotron text-center bg-transparent">
             <h1>Correr</h1>
         </div>
 
-     <?php elseif (date('l') === 'Wednesday') :?>
+     <?php elseif (date('l') === 'Thursday') :?>
 
         <div class="jumbotron text-center bg-transparent">
             <h1>Correr</h1>
@@ -222,15 +222,6 @@
     <?php elseif (date('l') === 'Friday') :?>
 
         <div class="jumbotron text-center bg-transparent">
-            <h1>Correr</h1>
-        </div>
-
-    <?php elseif (date('l') === 'Saturday') :?>
-
-        <?php if ($thirdTuesday == $today || $fourthTuesday == $today): ?> 
-
-          <div class="body-content">
-
             <h5>Pecho
               <?php if ($thirdTuesday == $today): ?>(2x4|2/2) <?php endif ?> 
               <?php if ($fourthTuesday == $today): ?>(2x4|2/2) <?php endif ?> 
@@ -242,30 +233,80 @@
               <img src="../upload/pecho4.gif" width="200" height="150">
          
             <h5>Core
-              <?php if ($thirdTuesday == $today): ?>(3x3|2/2) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x3|2/2) <?php endif ?>
-              <?php if ($fifthTuesday == $today): ?>(4x3|2/2) <?php endif ?>  
+              <?php if ($thirdTuesday == $today): ?>(3x30seg) <?php endif ?> 
+              <?php if ($fourthTuesday == $today): ?>(3x30seg) <?php endif ?>
+              <?php if ($fifthTuesday == $today): ?>(3x30seg) <?php endif ?>  
             </h5>
               <img src="../upload/core.gif" width="200" height="150">
               <img src="../upload/core2.gif" width="200" height="150">
               <img src="../upload/core3.gif" width="200" height="150">
 
+            <h5>Abdominales
+              <?php if ($thirdTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($fourthTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($fifthTuesday == $today): ?>(3x3) <?php endif ?> 
+            </h5>
+              <img src="../upload/abdominal.gif" width="200" height="150">
+              <img src="../upload/abdominal2.gif" width="200" height="150">
+              <img src="../upload/abdominal3.gif" width="200" height="150">
+
+          </div>
+
+    <?php elseif (date('l') === 'Saturday') :?>
+
+          <div class="body-content">
+
+             <h5>Biceps
+              <?php if ($firstTuesday == $today): ?>(2x3) <?php endif ?> 
+              <?php if ($secondTuesday == $today): ?>(4x3) <?php endif ?> 
+              <?php if ($thirdTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($fourthTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($fifthTuesday == $today): ?>(4x3) <?php endif ?> 
+            </h5>
+              <img src="../upload/biceps.gif" width="200" height="150">
+              <img src="../upload/biceps2.gif" width="200" height="150">
+              <img src="../upload/biceps3.gif" width="200" height="150">
+
             <h5>Espalda
-              <?php if ($thirdTuesday == $today): ?>(3x3|2/2) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x3|2/2) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(4x3|2/2) <?php endif ?> 
+              <?php if ($firstTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($secondTuesday == $today): ?>(4x3) <?php endif ?> 
+              <?php if ($thirdTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($fourthTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($fifthTuesday == $today): ?>(4x3) <?php endif ?> 
             </h5>
               <img src="../upload/espalda.gif" width="200" height="150">
               <img src="../upload/espalda2.gif" width="200" height="150">
               <img src="../upload/espalda3.gif" width="200" height="150">
-            
+
+            <h5>Hombros
+              <?php if ($firstTuesday == $today): ?>(2x3) <?php endif ?> 
+              <?php if ($secondTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($thirdTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($fourthTuesday == $today): ?>(3x3) <?php endif ?> 
+              <?php if ($fifthTuesday == $today): ?>(4x3) <?php endif ?> 
+            </h5>
+              <img src="../upload/hombros.gif" width="200" height="150">
+              <img src="../upload/hombros2.gif" width="200" height="150">
+              <img src="../upload/hombros3.gif" width="200" height="150">
+       
+            <h5>Triceps
+              <?php if ($firstTuesday == $today): ?>(2x4) <?php endif ?> 
+              <?php if ($secondTuesday == $today): ?>(2x4) <?php endif ?> 
+              <?php if ($thirdTuesday == $today): ?>(3x4) <?php endif ?> 
+              <?php if ($fourthTuesday == $today): ?>(3x4) <?php endif ?> 
+              <?php if ($fifthTuesday == $today): ?>(2x4) <?php endif ?> 
+            </h5>
+              <img src="../upload/triceps.gif" width="350" height="250">
+              <img src="../upload/triceps3.gif" width="350" height="250">
+              <img src="../upload/triceps4.gif" width="350" height="250">
+              <img src="../upload/triceps6.gif" width="350" height="250">
           </div>
-        <?php endif ?> 
+
     <?php elseif (date('l') === 'Sunday') :?>
 
-        <div class="jumbotron text-center bg-transparent">
+        <!--    <div class="jumbotron text-center bg-transparent">
             <h1>Correr</h1>
-        </div>
+        </div> -->
 
     <?php endif ?>
     

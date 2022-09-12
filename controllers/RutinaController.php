@@ -60,4 +60,9 @@ class RutinaController extends Controller
     {
         return $this->render('diario');
     }
+
+    public function actionCalendar()
+    {
+        return $this->render('calendar');
+    }
 }
