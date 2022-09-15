@@ -309,9 +309,9 @@
 
     <?php elseif (date('l') === 'Sunday') :?>
 
-        <!--    <div class="jumbotron text-center bg-transparent">
-            <h1>Correr</h1>
-        </div> -->
+           <div class="jumbotron text-center bg-transparent">
+            <h1>Futbol</h1>
+        </div>
 
     <?php endif ?>
     
