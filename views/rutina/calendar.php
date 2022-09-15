@@ -1,4 +1,3 @@
-
 <?php 
 
   $headings = array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');?>
@@ -24,8 +23,9 @@
  		<tr>
 			 <?php  for($i=1;$i<=($total_days+$start_from);$i++){
 			  if($i>$start_from){
-			   echo "<td>".($i-$start_from)."<input type='checkbox'>"."</td>";
-				if(isset($_POST['txtCheck'])){
+
+			   echo "<td>".($i-$start_from)."<input type='checkbox' id='$i' name='$i' value='$i'>"."</td>";
+				if(isset($_POST['$i'])){
 				echo "checked='checked'"; 
 				}
 				 }else{
@@ -38,14 +38,14 @@
 		</tr>
 	</table>
 	
-	<script>
-	$(function(){
-	    var test = localStorage.input === 'true'? true: false;
-	    $('input').prop('checked', test || false);
-	});
+      <script>
+		$(function(){
+		    var test = localStorage.input === 'true'? true: false;
+		    $('input').prop('checked', test || false);
+		});
 
-	$('input').on('change', function() {
-	    localStorage.input = $(this).is(':checked');
-	    console.log($(this).is(':checked'));
-	});
+		$('input').on('change', function() {
+		    localStorage.input = $(this).is(':checked');
+		    console.log($(this).is(':checked'));
+		});
 	</script>

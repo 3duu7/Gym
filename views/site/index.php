@@ -141,6 +141,8 @@
               <img src="../upload/pecho2.gif" width="200" height="150">
               <img src="../upload/pecho3.gif" width="200" height="150">
               <img src="../upload/pecho4.gif" width="200" height="150">
+              <img src="../upload/pecho6.gif" width="200" height="150">
+              <img src="../upload/pecho7gif.gif" width="350" height="200">
       
             <h5>Biceps
               <?php if ($firstTuesday == $today): ?>(2x3) <?php endif ?> 
@@ -180,6 +182,7 @@
               <img src="../upload/hombros.gif" width="200" height="150">
               <img src="../upload/hombros2.gif" width="200" height="150">
               <img src="../upload/hombros3.gif" width="200" height="150">
+              <img src="../upload/hombros4.gif" width="200" height="150">
 
 
             <h5>Triceps
@@ -189,10 +192,10 @@
               <?php if ($fourthTuesday == $today): ?>(3x4) <?php endif ?> 
               <?php if ($fifthTuesday == $today): ?>(2x4) <?php endif ?> 
             </h5>
-              <img src="../upload/triceps.gif" width="350" height="250">
+              <img src="../upload/triceps.jpg" width="350" height="250">
+              <img src="../upload/triceps2.jpg" width="350" height="250">
+              <img src="../upload/triceps3.jpg" width="350" height="250">
               <img src="../upload/triceps3.gif" width="350" height="250">
-              <img src="../upload/triceps4.gif" width="350" height="250">
-              <img src="../upload/triceps6.gif" width="350" height="250">
 
             <h5>Piernas
               <?php if ($firstTuesday == $today): ?>(2x3) <?php endif ?> 
@@ -231,6 +234,8 @@
               <img src="../upload/pecho2.gif" width="200" height="150">
               <img src="../upload/pecho3.gif" width="200" height="150">
               <img src="../upload/pecho4.gif" width="200" height="150">
+              <img src="../upload/pecho6.gif" width="200" height="150">
+              <img src="../upload/pecho7gif.gif" width="350" height="200">
          
             <h5>Core
               <?php if ($thirdTuesday == $today): ?>(3x30seg) <?php endif ?> 
@@ -296,10 +301,10 @@
               <?php if ($fourthTuesday == $today): ?>(3x4) <?php endif ?> 
               <?php if ($fifthTuesday == $today): ?>(2x4) <?php endif ?> 
             </h5>
-              <img src="../upload/triceps.gif" width="350" height="250">
+              <img src="../upload/triceps.jpg" width="350" height="250">
+              <img src="../upload/triceps2.jpg" width="350" height="250">
+              <img src="../upload/triceps3.jpg" width="350" height="250">
               <img src="../upload/triceps3.gif" width="350" height="250">
-              <img src="../upload/triceps4.gif" width="350" height="250">
-              <img src="../upload/triceps6.gif" width="350" height="250">
           </div>
 
     <?php elseif (date('l') === 'Sunday') :?>
