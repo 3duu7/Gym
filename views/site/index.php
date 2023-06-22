@@ -127,7 +127,7 @@
 
     <?php if (date('l') === 'Monday'): ?>
 
-        <div class="body-content">
+          <div class="body-content">
  
             <h5>Pecho</h5>      
 
@@ -147,7 +147,7 @@
 
               <iframe width="350" height="250" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxkYEKkwBUcDASJ9MWHwEgVJ84sKUU1CZJ&amp;clipt=EK2SExi1uRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-        </div>
+          </div>
 
       <?php elseif (date('l') === 'Tuesday') :?>
           <div class="body-content">
@@ -173,7 +173,7 @@
           </div>
     <?php elseif (date('l') === 'Wednesday') :?>
 
-         <div class="body-content">
+          <div class="body-content">
  
             <h5>Pecho</h5>      
 
@@ -193,7 +193,7 @@
 
               <iframe width="350" height="250" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxkYEKkwBUcDASJ9MWHwEgVJ84sKUU1CZJ&amp;clipt=EK2SExi1uRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-        </div>
+          </div>
 
      <?php elseif (date('l') === 'Thursday') :?>
           <div class="body-content">
