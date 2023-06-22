@@ -127,191 +127,134 @@
 
     <?php if (date('l') === 'Monday'): ?>
 
-        <div class="body-content">
+          <div class="body-content">
  
-            <h5>Pecho 
-              <?php if ($firstTuesday == $today): ?>(2x4) <?php endif ?> 
-              <?php if ($secondTuesday == $today): ?>(3x4) <?php endif ?> 
-              <?php if ($thirdTuesday == $today): ?>(2x4|1/2) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(2x4|1/2) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(3x4|1/2) <?php endif ?> 
-            </h5>      
+            <h5>Pecho</h5>      
 
-              <img src="../upload/pecho.gif" width="200" height="150">
-              <img src="../upload/pecho2.gif" width="200" height="150">
-              <img src="../upload/pecho3.gif" width="200" height="150">
-              <img src="../upload/pecho4.gif" width="200" height="150">
-              <img src="../upload/pecho6.gif" width="200" height="150">
-              <img src="../upload/pecho7gif.gif" width="350" height="200">
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/w86EalEoFRY?clip=UgkxaWyJq6GI60YLYdMKU8jGHsgDdWb_8y-6&amp;clipt=ENqyBxji2Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/huB9VTclj_g?clip=UgkxkNxouojRRHLnuUA_xMsGciU5geFbjbCg&amp;clipt=ELX3CBi9ngk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/bL_NIMh52E0?clip=Ugkxob7dIE4pGna-Z4bdkM3Ii8u8vdM-gPAc&amp;clipt=ELaEAhi-qwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/bL_NIMh52E0?clip=UgkxvdtBe5Dopf8uJqJqpZhCM29PTX2hf9gk&amp;clipt=EOKuGhjq1Ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       
-            <h5>Biceps
-              <?php if ($firstTuesday == $today): ?>(2x3) <?php endif ?> 
-              <?php if ($secondTuesday == $today): ?>(4x3) <?php endif ?> 
-              <?php if ($thirdTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(4x3) <?php endif ?> 
-            </h5>
-              <img src="../upload/biceps.gif" width="200" height="150">
-              <img src="../upload/biceps2.gif" width="200" height="150">
-              <img src="../upload/biceps3.gif" width="200" height="150">
+            <h5>Biceps</h5>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxzhALqogNAjKfLq80GJYq3mZRIlApbQCa&amp;clipt=EMaYBBjOvwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxudxOosy8eshlcYkwDYkH9GscMBAfYkbI&amp;clipt=EPLxBxj6mAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-            <h5>Espalda
-              <?php if ($firstTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($secondTuesday == $today): ?>(4x3) <?php endif ?> 
-              <?php if ($thirdTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(4x3) <?php endif ?> 
-            </h5>
-              <img src="../upload/espalda.gif" width="200" height="150">
-              <img src="../upload/espalda2.gif" width="200" height="150">
-              <img src="../upload/espalda3.gif" width="200" height="150">
-                  
-        </div>
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxkYEKkwBUcDASJ9MWHwEgVJ84sKUU1CZJ&amp;clipt=EK2SExi1uRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    <?php elseif (date('l') === 'Tuesday') :?>
+          </div>
 
-        <div class="body-content">
-            <h5>Hombros
-              <?php if ($firstTuesday == $today): ?>(2x3) <?php endif ?> 
-              <?php if ($secondTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($thirdTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(4x3) <?php endif ?> 
-            </h5>
-              <img src="../upload/hombros.gif" width="200" height="150">
-              <img src="../upload/hombros2.gif" width="200" height="150">
-              <img src="../upload/hombros3.gif" width="200" height="150">
-              <img src="../upload/hombros4.gif" width="200" height="150">
+      <?php elseif (date('l') === 'Tuesday') :?>
+          <div class="body-content">
 
-            <h5>Triceps
-              <?php if ($firstTuesday == $today): ?>(2x4) <?php endif ?> 
-              <?php if ($secondTuesday == $today): ?>(2x4) <?php endif ?> 
-              <?php if ($thirdTuesday == $today): ?>(3x4) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x4) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(2x4) <?php endif ?> 
-            </h5>
-              <img src="../upload/triceps.jpg" width="350" height="250">
-              <img src="../upload/triceps2.jpg" width="350" height="250">
-              <img src="../upload/triceps3.jpg" width="350" height="250">
-              <img src="../upload/triceps3.gif" width="350" height="250">
+            <h5>Espalda</h5>
 
-            <h5>Piernas
-              <?php if ($firstTuesday == $today): ?>(2x3) <?php endif ?> 
-              <?php if ($secondTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($thirdTuesday == $today): ?>(4x3) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(4x3) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(3x3) <?php endif ?> 
-            </h5>
-              <img src="../upload/piernas.gif" width="200" height="150">
-              <img src="../upload/piernas2.gif" width="200" height="150">
-              <img src="../upload/piernas3.gif" width="200" height="150">
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/hc2ZMuF0JTk?clip=Ugkx8pGd_iM3rnjIwPm8BZF9YWcHIYbpUlp7&amp;clipt=EOCLExjoshM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-        </div>
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/hc2ZMuF0JTk?clip=UgkxOUNL4zIvb9sskC3JW_iuwCEeUa7cNGfh&amp;clipt=EJ3aFRilgRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/hc2ZMuF0JTk?clip=UgkxBUftfA_pH9PvchvFPDRPihKOeqnJHIFd&amp;clipt=EJHyBxiZmQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/pg4c2nCpKKU?clip=UgkxO6eBIRgqjPhiKjDsKTrrQo3OQ62GRQqd&amp;clipt=EN7XFhjm_hY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <h5>Triceps</h5>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/w86EalEoFRY?clip=UgkxtmXwcvvp7MqjIU3juqPbIh7d71OmcF5t&amp;clipt=EM7WCRjW_Qk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/gre8lBLSH7w?clip=Ugkxp4sCx3_enMo1Km7Zb58RlWl4y_KEIyM1&amp;clipt=EOT1BBjsnAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/gre8lBLSH7w?clip=UgkxVKMw3G58w-DaIYMDAIxSwatmv5GkZglm&amp;clipt=EPHrChj5kgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          </div>
     <?php elseif (date('l') === 'Wednesday') :?>
 
-        <div class="jumbotron text-center bg-transparent">
-            <h1>Correr</h1>
-        </div>
 
+          <div class="body-content">
+ 
+            <h5>Pecho</h5>      
+
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/w86EalEoFRY?clip=UgkxaWyJq6GI60YLYdMKU8jGHsgDdWb_8y-6&amp;clipt=ENqyBxji2Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/huB9VTclj_g?clip=UgkxkNxouojRRHLnuUA_xMsGciU5geFbjbCg&amp;clipt=ELX3CBi9ngk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/bL_NIMh52E0?clip=Ugkxob7dIE4pGna-Z4bdkM3Ii8u8vdM-gPAc&amp;clipt=ELaEAhi-qwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/bL_NIMh52E0?clip=UgkxvdtBe5Dopf8uJqJqpZhCM29PTX2hf9gk&amp;clipt=EOKuGhjq1Ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
+            <h5>Biceps</h5>
+
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxzhALqogNAjKfLq80GJYq3mZRIlApbQCa&amp;clipt=EMaYBBjOvwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxudxOosy8eshlcYkwDYkH9GscMBAfYkbI&amp;clipt=EPLxBxj6mAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxkYEKkwBUcDASJ9MWHwEgVJ84sKUU1CZJ&amp;clipt=EK2SExi1uRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          </div>
+
+
+     <?php elseif (date('l') === 'Thursday') :?>
+          <div class="body-content">
+
+            <h5>Espalda</h5>
+            
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/hc2ZMuF0JTk?clip=Ugkx8pGd_iM3rnjIwPm8BZF9YWcHIYbpUlp7&amp;clipt=EOCLExjoshM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/hc2ZMuF0JTk?clip=UgkxOUNL4zIvb9sskC3JW_iuwCEeUa7cNGfh&amp;clipt=EJ3aFRilgRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/hc2ZMuF0JTk?clip=UgkxBUftfA_pH9PvchvFPDRPihKOeqnJHIFd&amp;clipt=EJHyBxiZmQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/pg4c2nCpKKU?clip=UgkxO6eBIRgqjPhiKjDsKTrrQo3OQ62GRQqd&amp;clipt=EN7XFhjm_hY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <h5>Triceps</h5>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/w86EalEoFRY?clip=UgkxtmXwcvvp7MqjIU3juqPbIh7d71OmcF5t&amp;clipt=EM7WCRjW_Qk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/gre8lBLSH7w?clip=Ugkxp4sCx3_enMo1Km7Zb58RlWl4y_KEIyM1&amp;clipt=EOT1BBjsnAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/gre8lBLSH7w?clip=UgkxVKMw3G58w-DaIYMDAIxSwatmv5GkZglm&amp;clipt=EPHrChj5kgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <h5>Hombros</h5>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/YlISf4U52t0?clip=Ugkxd3oL1npc80RizW0IWtvymBN3Pf1vNvlL&amp;clipt=EP7cDhiGhA8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/YlISf4U52t0?clip=UgkxfDtvmdM90Z9LkxAsszT1P7BJSVC8G4ej&amp;clipt=EPbvFRj-lhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/YlISf4U52t0?clip=Ugkx9iLd6raoTKugdiR14r0ktP-KFy8MbVvF&amp;clipt=EK2zGBi12hg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <iframe width="350" height="250" src="https://www.youtube.com/embed/YlISf4U52t0?clip=UgkxjWo_fTyddoNWVXiajM9Bp-t2bVrSVJXy&amp;clipt=EMaeAhjOxQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          </div>
 
 
     <?php elseif (date('l') === 'Thursday') :?>
 
         <div class="jumbotron text-center bg-transparent">
-            <h5>Pecho
-              <?php if ($thirdTuesday == $today): ?>(2x4|2/2) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(2x4|2/2) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(3x4|2/2) <?php endif ?> 
-            </h5>
-              <img src="../upload/pecho.gif" width="200" height="150">
-              <img src="../upload/pecho2.gif" width="200" height="150">
-              <img src="../upload/pecho3.gif" width="200" height="150">
-              <img src="../upload/pecho4.gif" width="200" height="150">
-              <img src="../upload/pecho6.gif" width="200" height="150">
-              <img src="../upload/pecho7gif.gif" width="350" height="200">
-         
-            <h5>Biceps
-              <?php if ($firstTuesday == $today): ?>(2x3) <?php endif ?> 
-              <?php if ($secondTuesday == $today): ?>(4x3) <?php endif ?> 
-              <?php if ($thirdTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(4x3) <?php endif ?> 
-            </h5>
-              <img src="../upload/biceps.gif" width="200" height="150">
-              <img src="../upload/biceps2.gif" width="200" height="150">
-              <img src="../upload/biceps3.gif" width="200" height="150">
 
-            <h5>Espalda
-              <?php if ($firstTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($secondTuesday == $today): ?>(4x3) <?php endif ?> 
-              <?php if ($thirdTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(4x3) <?php endif ?> 
-            </h5>
-              <img src="../upload/espalda.gif" width="200" height="150">
-              <img src="../upload/espalda2.gif" width="200" height="150">
-              <img src="../upload/espalda3.gif" width="200" height="150">
-
-          </div>
-
-    <?php elseif (date('l') === 'Friday') :?>
-
-        <div class="jumbotron text-center bg-transparent">
-            <h1>Correr</h1>
+            <h1>Descanso</h1>
         </div>
+
 
     <?php elseif (date('l') === 'Saturday') :?>
 
-          <div class="body-content">
+        <div class="jumbotron text-center bg-transparent">
+            <h1>Furbo</h1>
+        </div>
 
-            <h5>Hombros
-              <?php if ($firstTuesday == $today): ?>(2x3) <?php endif ?> 
-              <?php if ($secondTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($thirdTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(4x3) <?php endif ?> 
-            </h5>
-              <img src="../upload/hombros.gif" width="200" height="150">
-              <img src="../upload/hombros2.gif" width="200" height="150">
-              <img src="../upload/hombros3.gif" width="200" height="150">
-       
-            <h5>Triceps
-              <?php if ($firstTuesday == $today): ?>(2x4) <?php endif ?> 
-              <?php if ($secondTuesday == $today): ?>(2x4) <?php endif ?> 
-              <?php if ($thirdTuesday == $today): ?>(3x4) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x4) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(2x4) <?php endif ?> 
-            </h5>
-              <img src="../upload/triceps.jpg" width="350" height="250">
-              <img src="../upload/triceps2.jpg" width="350" height="250">
-              <img src="../upload/triceps3.jpg" width="350" height="250">
-              <img src="../upload/triceps3.gif" width="350" height="250">
-
-            <h5>Core
-              <?php if ($thirdTuesday == $today): ?>(3x30seg) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x30seg) <?php endif ?>
-              <?php if ($fifthTuesday == $today): ?>(3x30seg) <?php endif ?>  
-            </h5>
-              <img src="../upload/core.gif" width="200" height="150">
-              <img src="../upload/core2.gif" width="200" height="150">
-              <img src="../upload/core3.gif" width="200" height="150">
-
-            <h5>Abdominales
-              <?php if ($thirdTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($fourthTuesday == $today): ?>(3x3) <?php endif ?> 
-              <?php if ($fifthTuesday == $today): ?>(3x3) <?php endif ?> 
-            </h5>
-              <img src="../upload/abdominal.gif" width="200" height="150">
-              <img src="../upload/abdominal2.gif" width="200" height="150">
-              <img src="../upload/abdominal3.gif" width="200" height="150">
-          </div>
 
     <?php elseif (date('l') === 'Sunday') :?>
 
-           <div class="jumbotron text-center bg-transparent">
-            <h1>Futbol</h1>
+        <div class="jumbotron text-center bg-transparent">
+            <h1>Descanso</h1>
         </div>
 
     <?php endif ?>
