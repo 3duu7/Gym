@@ -25,4 +25,6 @@ $this->params['breadcrumbs'][] = $this->title;
 
 	<iframe width="350" height="250" src="https://www.youtube.com/embed/bL_NIMh52E0?clip=UgkxvdtBe5Dopf8uJqJqpZhCM29PTX2hf9gk&amp;clipt=EOKuGhjq1Ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+	<iframe width="350" height="250" src="https://www.youtube.com/embed/WDNQk_vJ2xE?clip=UgkxlvOiIbBKwz7xqFzxO-ABs2ezVf0sKe12&amp;clipt=EIzFEhjK2RM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 </div>
