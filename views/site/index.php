@@ -145,6 +145,7 @@
 
               <iframe width="350" height="250" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxudxOosy8eshlcYkwDYkH9GscMBAfYkbI&amp;clipt=EPLxBxj6mAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
               <iframe width="350" height="250" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxkYEKkwBUcDASJ9MWHwEgVJ84sKUU1CZJ&amp;clipt=EK2SExi1uRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
           </div>
@@ -173,13 +174,16 @@
           </div>
     <?php elseif (date('l') === 'Wednesday') :?>
 
+
           <div class="body-content">
  
             <h5>Pecho</h5>      
 
+
               <iframe width="350" height="250" src="https://www.youtube.com/embed/w86EalEoFRY?clip=UgkxaWyJq6GI60YLYdMKU8jGHsgDdWb_8y-6&amp;clipt=ENqyBxji2Qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
               <iframe width="350" height="250" src="https://www.youtube.com/embed/huB9VTclj_g?clip=UgkxkNxouojRRHLnuUA_xMsGciU5geFbjbCg&amp;clipt=ELX3CBi9ngk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
               <iframe width="350" height="250" src="https://www.youtube.com/embed/bL_NIMh52E0?clip=Ugkxob7dIE4pGna-Z4bdkM3Ii8u8vdM-gPAc&amp;clipt=ELaEAhi-qwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -187,13 +191,16 @@
       
             <h5>Biceps</h5>
 
+
               <iframe width="350" height="250" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxzhALqogNAjKfLq80GJYq3mZRIlApbQCa&amp;clipt=EMaYBBjOvwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
               <iframe width="350" height="250" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxudxOosy8eshlcYkwDYkH9GscMBAfYkbI&amp;clipt=EPLxBxj6mAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
               <iframe width="350" height="250" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxkYEKkwBUcDASJ9MWHwEgVJ84sKUU1CZJ&amp;clipt=EK2SExi1uRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
           </div>
+
 
      <?php elseif (date('l') === 'Thursday') :?>
           <div class="body-content">
@@ -228,9 +235,11 @@
 
           </div>
 
-    <?php elseif (date('l') === 'Friday') :?>
+
+    <?php elseif (date('l') === 'Thursday') :?>
 
         <div class="jumbotron text-center bg-transparent">
+
             <h1>Descanso</h1>
         </div>
 
@@ -240,6 +249,7 @@
         <div class="jumbotron text-center bg-transparent">
             <h1>Furbo</h1>
         </div>
+
 
     <?php elseif (date('l') === 'Sunday') :?>
 
