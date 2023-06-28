@@ -259,7 +259,7 @@
 
     <?php endif ?>
     
-       <table style="position: absolute;left: 1100px;top:150px;">
+      <!--  <table style="position: absolute;left: 1100px;top:150px;">
 
 
           <tr>
@@ -334,7 +334,7 @@
               <td class="alert" <?php if ($fifthMonday == $today || $fifthTuesday == $today || $fifthWednesday == $today || $fifthThursday == $today || $fifthFriday == $today || $fifthSaturday == $today || $fifthSunday == $today): ?> style=color:red <?php endif ?> >22</td>
           </tr>
 
-        </table>
+        </table> -->
 
 </div>
     
