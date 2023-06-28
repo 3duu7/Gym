@@ -138,6 +138,7 @@
               <iframe width="350" height="250" src="https://www.youtube.com/embed/bL_NIMh52E0?clip=Ugkxob7dIE4pGna-Z4bdkM3Ii8u8vdM-gPAc&amp;clipt=ELaEAhi-qwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
               <iframe width="350" height="250" src="https://www.youtube.com/embed/bL_NIMh52E0?clip=UgkxvdtBe5Dopf8uJqJqpZhCM29PTX2hf9gk&amp;clipt=EOKuGhjq1Ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              
       
             <h5>Biceps</h5>
 
