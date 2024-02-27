@@ -11,7 +11,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <iframe width="250" height="200" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxzhALqogNAjKfLq80GJYq3mZRIlApbQCa&amp;clipt=EMaYBBjOvwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    <iframe width="250" height="200" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxicjfT4UXAWv8VKHJNjM1CZPgBfbE5ImA&amp;clipt=EMvjDRjTig4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <img src="../upload/biceps.gif" width="225px" height="225px">
 
     <iframe width="250" height="200" src="https://www.youtube.com/embed/Zjv0tiMjkJU?clip=UgkxPwq8vw0pkBYQaubJi6NFXCovT8IG4krZ&amp;clipt=EIWbFhiNwhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     

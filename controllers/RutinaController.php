@@ -65,4 +65,13 @@ class RutinaController extends Controller
     {
         return $this->render('calendar');
     }
+
+    public function actionFlexibilidad()
+    {
+        return $this->render('flexibilidad');
+    }
+     public function actionRepeticiones()
+    {
+        return $this->render('repeticiones');
+    }
 }

@@ -13,9 +13,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
 	<iframe width="200" height="200" src="https://www.youtube.com/embed/gre8lBLSH7w?clip=Ugkxp4sCx3_enMo1Km7Zb58RlWl4y_KEIyM1&amp;clipt=EOT1BBjsnAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-	<iframe width="200" height="200" src="https://www.youtube.com/embed/gre8lBLSH7w?clip=Ugkxgg8rbYgsDnmj5xKPR9AGS7B_uMzbAVLR&amp;clipt=EOLxBhjqmAc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
-	<iframe width="200" height="200" src="https://www.youtube.com/embed/WDNQk_vJ2xE?clip=Ugkx3fqPYbVtrWjE99xRKmx3Jpbm7iZ6fZTD&amp;clipt=EMVMGM1z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-	<!-- <iframe width="350" height="250" src="https://www.youtube.com/embed/gre8lBLSH7w?clip=UgkxVKMw3G58w-DaIYMDAIxSwatmv5GkZglm&amp;clipt=EPHrChj5kgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+	
+	  <img src="../upload/triceps2.jpg" width="225px" height="225px">
+	
 
 </div>
