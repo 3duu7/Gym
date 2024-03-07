@@ -13,11 +13,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
 	<iframe width="250" height="200" src="https://www.youtube.com/embed/YlISf4U52t0?clip=UgkxfDtvmdM90Z9LkxAsszT1P7BJSVC8G4ej&amp;clipt=EPbvFRj-lhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+	<iframe width="250" height="200" src="https://www.youtube.com/embed/byGit7i8Dmo?si=DF9Qqg6iBf966lew&amp;clip=UgkxFqZDcwKbpRTU4ieQmUDhxaoYuy7oXFsg&amp;clipt=ENHlIRij2CI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	<iframe width="250" height="200" src="https://www.youtube.com/embed/byGit7i8Dmo?si=a7cN4jTn6hC8O6q8&amp;clip=UgkxPZG8AwP3HjzNWS83tGWOcH55o-hxanab&amp;clipt=ENTIEhjsvRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 	<iframe width="250" height="200" src="https://www.youtube.com/embed/YlISf4U52t0?clip=Ugkx9iLd6raoTKugdiR14r0ktP-KFy8MbVvF&amp;clipt=EK2zGBi12hg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<img src="../upload/hombros3.gif" width="225px" height="225px">
-
-	<!-- <iframe width="350" height="250" src="https://www.youtube.com/embed/YlISf4U52t0?clip=UgkxjWo_fTyddoNWVXiajM9Bp-t2bVrSVJXy&amp;clipt=EMaeAhjOxQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
 </div>
 

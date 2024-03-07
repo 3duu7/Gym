@@ -13,9 +13,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 	<iframe width="200" height="200" src="https://www.youtube.com/embed/gre8lBLSH7w?clip=Ugkxp4sCx3_enMo1Km7Zb58RlWl4y_KEIyM1&amp;clipt=EOT1BBjsnAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
-	
-	  <img src="../upload/triceps2.jpg" width="225px" height="225px">
+	<iframe width="200" height="200" src="https://www.youtube.com/embed/HIHgiVZo8RQ?si=lEE9W-SxU0oOFsxL&amp;clip=Ugkxot6mCtzrIfATNBNm6_m3ZEF4rIimH05y&amp;clipt=EJjfDhiw1A8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	
 
 </div>
