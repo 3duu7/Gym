@@ -11,12 +11,10 @@ $this->params['breadcrumbs'][] = $this->title;
     
     <iframe width="250" height="200" src="https://www.youtube.com/embed/HIHgiVZo8RQ?si=g5h-TKhA0JARa6lL&amp;clip=UgkxebDl1CswjPVCmqVtk3DgTDwGkXSnwm8P&amp;clipt=EAAYmHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
  
-    <iframe width="250" height="200" src="https://www.youtube.com/embed/AWLUQdO0rf8?si=pKoSCyf-3kxlGAYy&amp;clip=UgkxuhJMkAnXl7UqEKbg6-AjRfto1oglsgLW&amp;clipt=EIuSCxijhww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
     <iframe width="250" height="200" src="https://www.youtube.com/embed/WF75Gf0ZaAs?si=ArHEpnJDujWjX6al&amp;clip=UgkxG6ykmATuaK8TTeYhV-SCkyXCsio4tFtz&amp;clipt=EMS8AhjcsQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    <iframe width="250" height="200" src="https://www.youtube.com/embed/WF75Gf0ZaAs?si=pVj-02bPn1EDTLQT&amp;clip=UgkxfJwhWhqFE5GbwyzmS3WYpdo4QqMmzyvy&amp;clipt=EPm9BhiRswc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<!--     <iframe width="250" height="200" src="https://www.youtube.com/embed/WF75Gf0ZaAs?clip=UgkxO1eBkF6Yen5YixTR1vSCHuzuUz3KuNGn&amp;clipt=EKfACRiv5wk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-
+   <iframe width="250" height="200" src="https://www.youtube.com/embed/WF75Gf0ZaAs?clip=UgkxO1eBkF6Yen5YixTR1vSCHuzuUz3KuNGn&amp;clipt=EKfACRiv5wk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
