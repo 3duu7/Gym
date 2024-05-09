@@ -42,13 +42,15 @@ AppAsset::register($this);
             ['label' => 'Hombros', 'url' => ['/rutina/hombros']],
             ['label' => 'Pecho', 'url' => ['/rutina/pecho']],
             ['label' => 'Espalda', 'url' => ['/rutina/espalda']],
-            // ['label' => 'Core', 'url' => ['/rutina/core']],
-            // ['label' => 'Abdominales', 'url' => ['/rutina/abdominal']],
+            ['label' => 'Oblicuos', 'url' => ['/rutina/oblicuos']],
+            ['label' => 'Abdominales', 'url' => ['/rutina/abdominal']],
             // ['label' => 'Piernas', 'url' => ['/rutina/piernas']],
             ['label' => '| Flexibilidad', 'url' => ['/rutina/flexibilidad']],
-              ['label' => '| Repeticiones', 'url' => ['/rutina/repeticiones']],
+            ['label' => '| Repeticiones', 'url' => ['/rutina/repeticiones']],
+            //['label' => 'Core', 'url' => ['/rutina/core']],
             // ['label' => 'Diario', 'url' => ['/rutina/diario']],
             // ['label' => 'Calendar', 'url' => ['/rutina/calendar']],
+          
             Yii::$app->user->isGuest ? (
                 ['label' => '', 'url' => ['/site/login']]
             ) : (
