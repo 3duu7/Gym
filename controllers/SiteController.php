@@ -149,6 +149,11 @@ class SiteController extends Controller
         return $this->render('triceps');
     }
 
+    public function actionOblicuos()
+    {
+        return $this->render('oblicuos');
+    }
+
     public function actionPecho()
     {
         return $this->render('pecho');

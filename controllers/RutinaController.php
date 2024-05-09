@@ -56,15 +56,20 @@ class RutinaController extends Controller
         return $this->render('abdominal');
     }
 
-    public function actionDiario()
+    public function actionOblicuos()
     {
-        return $this->render('diario');
+        return $this->render('oblicuos');
     }
 
-    public function actionCalendar()
-    {
-        return $this->render('calendar');
-    }
+    // public function actionDiario()
+    // {
+    //     return $this->render('diario');
+    // }
+
+    // public function actionCalendar()
+    // {
+    //     return $this->render('calendar');
+    // }
 
     public function actionFlexibilidad()
     {
