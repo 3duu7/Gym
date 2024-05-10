@@ -7,14 +7,15 @@ $this->title = 'Piernas';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="rutina-piernas">
-    <h1><?= Html::encode($this->title) ?></h1>
 
-    <iframe width="250" height="200" src="https://www.youtube.com/embed/1rf2P4V1oKY?clip=Ugkxo_5rlOR0uXf0c_GfMu6OB5LqYNQeY_CC&amp;clipt=EJ2RExiluBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<iframe width="350" height="250" src="https://www.youtube.com/embed/LHJyqDpexpY?si=e4qtVj1HWKGk2vO8&amp;clip=Ugkxm0XazoGDcCixXvVfZjj0bnwzGJvo8tPX&amp;clipt=ELWcCBjNkQk&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    <iframe width="250" height="200" src="https://www.youtube.com/embed/1rf2P4V1oKY?clip=UgkxBGK-IBa0bCA5it_MbOqUHWwoONywUNy8&amp;clipt=ENS5BBjc4AQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<iframe width="350" height="250" src="https://www.youtube.com/embed/LHJyqDpexpY?si=gPeXZactZ_yM9_Ou&amp;clip=UgkxQgiPTO7exueSb5PXS3sfr8wTbu49k14p&amp;clipt=EP7mEBjpxxE&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    <iframe width="250" height="200" src="https://www.youtube.com/embed/1rf2P4V1oKY?clip=Ugkxav0dtVyhAaZxo-d7wFOWl5R6hhLlOt9c&amp;clipt=EIzEFRiU6xU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<iframe width="350" height="250" src="https://www.youtube.com/embed/LHJyqDpexpY?si=zEgfA3rg5EGdu3ak&amp;clip=Ugkx36tr9TcMDre6qEvN8Sd2LhgKwz1PjgEy&amp;clipt=ELy9JBibmSU&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    <iframe width="250" height="200" src="https://www.youtube.com/embed/1rf2P4V1oKY?clip=UgkxNOQ8cwufUoQe65B-RPee4lLYgIxJq91D&amp;clipt=EKDYHxio_x8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<iframe width="350" height="250" src="https://www.youtube.com/embed/LHJyqDpexpY?si=6D6CVuZH8mnUkBsm&amp;clip=UgkxBda104VnUSWG1HMkpDaUNF8JhXj4JM7G&amp;clipt=ELblKBjO2ik&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+	<iframe width="350" height="250" src="https://www.youtube.com/embed/LHJyqDpexpY?si=SObzi4qxNYSroLR1&amp;clip=UgkxbV7w2UMZ_2Iaie6q-B4hiLlBusbGc_a1&amp;clipt=EPWsCxiNogw&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </div>

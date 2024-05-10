@@ -44,7 +44,7 @@ AppAsset::register($this);
             ['label' => 'Espalda', 'url' => ['/rutina/espalda']],
             ['label' => 'Oblicuos', 'url' => ['/rutina/oblicuos']],
             ['label' => 'Abdominales', 'url' => ['/rutina/abdominal']],
-            // ['label' => 'Piernas', 'url' => ['/rutina/piernas']],
+            ['label' => 'Piernas', 'url' => ['/rutina/piernas']],
             ['label' => '| Flexibilidad', 'url' => ['/rutina/flexibilidad']],
             ['label' => '| Repeticiones', 'url' => ['/rutina/repeticiones']],
             //['label' => 'Core', 'url' => ['/rutina/core']],
