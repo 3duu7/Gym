@@ -93,6 +93,11 @@ a.desc:after {
 }
 
 .space{
-    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.size-videos{
+    height: 250px;
+    width: 350px;
 }
 

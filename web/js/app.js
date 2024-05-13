@@ -39,3 +39,12 @@
 			return angular.isObject(data) && String(data)!=='[object File]'?param(data):data;
 		}];
 	});
+
+
+	function mostrarNivel(nivel) {
+    var niveles = document.getElementsByClassName("niveles");
+    for (var i = 0; i < niveles.length; i++) {
+        niveles[i].style.display = "none";
+    }
+    document.getElementById(nivel).style.display = "block";
+}

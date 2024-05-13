@@ -15,7 +15,7 @@
   </div>
 
       <?php if (date('l') === 'Monday'): ?>
-               <h4 style="text-align: center">Lunes</h4>
+            <!--    <h4 style="text-align: center">Lunes</h4> -->
 
           <div class="body-content">
  
